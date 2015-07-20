@@ -1,0 +1,46 @@
+{
+  "id": "appcelerator.lp.asf",
+  "name": "SDK Fundamentals",
+  "slug": "APPC-LP-ASF",
+  "description": "SDK Fundamentals Learning Path",
+  "version": "1.0.0",
+  "copyright": "Appcelerator, Inc.",
+  "author": "Ricardo Alcocer",
+  "license": "MIT",
+  "main": "modules/SDK-000",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tzmartin/lp-sdk-fundamentals"
+  },
+  "bugs": {
+    "url": "https://github.com/tzmartin/lp-sdk-fundamentals/issues"
+  },
+  "keywords": [
+    "Appcelerator",
+    "SDK",
+    "badge",
+    "module"
+  ],
+  "badges": [
+    {
+      "name": "appc.PLAT101",
+      "version": "^0.0.1",
+      "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT101"
+    },
+    {
+      "name": "appc.PLAT102",
+      "version": "^0.0.1",
+      "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT102"
+    },
+    {
+      "name": "appc.PLAT103",
+      "version": "^0.0.1",
+      "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT103"
+    },
+    {
+      "name": "appc.PLAT104",
+      "version": "^0.0.1",
+      "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT104"
+    }
+  ]
+}
