@@ -1,0 +1,19 @@
+{
+	"guid": "cec8b040-317d-11e5-a745-f7a39794ad36",
+	"title": "Studio",
+	"filename": "ACD.3.studio",
+	"version": "1.0.0",
+	"description": "Welcome to Appcelerator Certified Developer",
+	"screenshots": [],
+	"main": "deck.md",
+	"repository": {
+		"type": "git",
+		"url": "http://"
+	},
+	"author": "Appcelerator, Inc.",
+	"license": "Apache2",
+	"theme": "appcelerator-training",
+	"locale": "en",
+	"path": "/Volumes/HD2/TRAINING/APC-Training/APD/v3/decks/welcome",
+	"repoUrl": "http://"
+}

@@ -1,0 +1,87 @@
+{
+  "guid": "cec8b040-317d-11e5-a745-f7a39794ad36",
+  "name": "Appcelerator Studio",
+  "description": "A high-level view Studio",
+  "url": "http://github.com/appcelerator-training/learning-modules/appc-STUD100",
+  "screenshots": [],
+  "copyright": "2015 Appcelerator, Inc.",
+  "author": "Ricardo Alcocer",
+  "badgeID": "STUD100",
+  "version": "1.0.0",
+  "namespace": "appc.learningmodule.STUD100",
+  "icon": "badge.icon.png",
+  "main": "deck.md",
+  "theme": "appcelerator-training",
+  "license": "Commercial",
+  "prerequisites": [
+    {
+      "badgeid": "JS100",
+      "version": "^1.0.0"
+    },
+    {
+      "badgeid": "STUD001",
+      "version": "^1.0.0"
+    },
+    {
+      "badgeid": "SDK102",
+      "version": "^1.0.0"
+    }
+  ],
+  "personas": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "difficulty": [
+    "1"
+  ],
+  "supplements": {
+    "code": [
+      {
+        "type": "lab",
+        "url": "http://github.com/appcelerator/badge_alloy100-lab"
+      },
+      {
+        "type": "tryit",
+        "url": "http://"
+      }
+    ],
+    "slides": {
+      "en": [
+        {
+          "type": "slides",
+          "url": "http://drive.google.com/somelonghash"
+        },
+        {
+          "type": "pdf",
+          "url": "http://file.pdf"
+        }
+      ],
+      "es": [
+        {
+          "type": "slides",
+          "url": "http://drive.google.com/somelonghash"
+        },
+        {
+          "type": "pdf",
+          "url": "http://file.pdf"
+        }
+      ]
+    }
+  },
+  "assessments": [
+    {
+      "type": "poll",
+      "url": "http://github.com/appcelerator/badge_PLAT101-poll"
+    },
+    {
+      "type": "quiz",
+      "url": "http://"
+    },
+    {
+      "type": "exam",
+      "url": "http://github.com/appcelerator/badge_PLAT101-exam"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Appcelerator Platform Overview",
+  "description": "A high-level view of the components of the Appcelerator Platform",
+  "url": "http://github.com/appcelerator-training/learning-modules/appc-PLAT101",
+  "copyright": "2015 Appcelerator, Inc.",
+  "author": "Ricardo Alcocer",
+  "badgeID": "APPC2",
+  "version": "1.0.0",
+  "namespace": "appc.learningmodule.APPC2",
+  "icon": "badge.icon.png",
+  "license": "Commercial",
+  "prerequisites": [
+    {
+      "badgeid": "JS100",
+      "version": "^1.0.0"
+    },
+    {
+      "badgeid": "STUD001",
+      "version": "^1.0.0"
+    },
+    {
+      "badgeid": "SDK102",
+      "version": "^1.0.0"
+    }
+  ],
+  "personas": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "difficulty": [
+    "1"
+  ],
+  "supplements": {
+    "code": [
+      {
+        "type": "lab",
+        "url": "http://github.com/appcelerator/badge_alloy100-lab"
+      },
+      {
+        "type": "tryit",
+        "url": "http://"
+      }
+    ],
+    "slides": {
+      "en": [
+        {
+          "type": "slides",
+          "url": "http://drive.google.com/somelonghash"
+        },
+        {
+          "type": "pdf",
+          "url": "http://file.pdf"
+        }
+      ],
+      "es": [
+        {
+          "type": "slides",
+          "url": "http://drive.google.com/somelonghash"
+        },
+        {
+          "type": "pdf",
+          "url": "http://file.pdf"
+        }
+      ]
+    }
+  },
+  "assessments": [
+    {
+      "type": "poll",
+      "url": "http://github.com/appcelerator/badge_PLAT101-poll"
+    },
+    {
+      "type": "quiz",
+      "url": "http://"
+    },
+    {
+      "type": "exam",
+      "url": "http://github.com/appcelerator/badge_PLAT101-exam"
+    }
+  ]
+}
