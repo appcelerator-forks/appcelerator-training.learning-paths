@@ -23,22 +23,22 @@
   ],
   "badges": [
     {
-      "name": "appc.PLAT101",
+      "name": "appc.WELCOME",
       "version": "^0.0.1",
-      "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT101"
+      "url" : "http://github.com/appcelerator-training/learning-modules/appc.WELCOME"
     },
     {
-      "name": "appc.PLAT102",
+      "name": "appc.PLAT100",
       "version": "^0.0.1",
-      "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT102"
+      "url" : "http://github.com/appcelerator-training/learning-modules/appc.STUD100"
     },
     {
-      "name": "appc.PLAT103",
+      "name": "appc.STUD100",
       "version": "^0.0.1",
-      "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT103"
+      "url" : "http://github.com/appcelerator-training/learning-modules/appc.JS100"
     },
     {
-      "name": "appc.PLAT104",
+      "name": "appc.JS100",
       "version": "^0.0.1",
       "url" : "http://github.com/appcelerator-training/learning-modules/appc.PLAT104"
     }
