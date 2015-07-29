@@ -16,16 +16,20 @@ Appcelerator SDK Fundamentals
 
 # In this lesson, you will:
 
+- Integrate native maps
+	- Android: Google Maps
+	- iOS: Apple Mapkit
+- Use custom map annotations
+
 ---section
 
-# MAPS & ANNOTATIONS
+# Native Maps
 
 ---
 
 # Native Map Kits
 
-![img](../assets/image9.png)
-![img](../assets/image10.png)
+![left](../assets/image9.png)
 
 - Native maps provide zooming, scrolling, and different display types
 - Points of interest are added with Annotations (pins)
@@ -36,7 +40,7 @@ Appcelerator SDK Fundamentals
 
 # Annotations
 
-![img](../assets/image11.png)
+![left](../assets/image11.png)
 
 - Annotations can be added on or after creation
 - Can customize:
@@ -60,7 +64,7 @@ Appcelerator SDK Fundamentals
 
 # Android Mapping
 
-![img](../assets/image12.png)
+![left](../assets/image12.png)
 
 - Version 2 Google Maps API key required  unless you happen to have an API v1 key already
 - Must use API key to see tiles on device / in production
@@ -80,6 +84,7 @@ Appcelerator SDK Fundamentals
 --- 
 
 # Maps Example
+
 ![img](../assets/image13.png)
 
 --- 
@@ -97,7 +102,7 @@ Appcelerator SDK Fundamentals
 </modules>
 ```
 
---- 
+---code 
 
 # Alloy.js
 
@@ -106,7 +111,7 @@ Appcelerator SDK Fundamentals
 Alloy.Globals.Map = require('ti.map'); 
 ```
 
---- 
+---code 
 
 # Maps View
 
@@ -120,7 +125,7 @@ Alloy.Globals.Map = require('ti.map');
 </Alloy> 
 ```
 
---- 
+---code 
 
 # Associated TSS file
 
@@ -143,7 +148,7 @@ Alloy.Globals.Map = require('ti.map');
 } 
 ```
 
---- 
+---code 
 
 # Associated Controller
 
@@ -172,6 +177,7 @@ $.win.open();
 --- 
 
 # Android Maps: General Procedure
+
 1. Obtain an API key from Google: [https://developers.google.com/maps/documentation/android/start#obtain_a_google_maps_api_key](https://developers.google.com/maps/documentation/android/start#obtain_a_google_maps_api_key)
 2. Update tiapp.xml with that key
 3. Enable module in tiapp.xml
@@ -182,6 +188,8 @@ $.win.open();
 
 # Obtaining an API key
 
+![right](../assets/image14.png)
+
 - Get your app's SHA-1 fingerprint
 - Visit Google's API console: [https://code.google.com/apis/console/](https://code.google.com/apis/console/)
 - Click Create Project or select project name, click Create
@@ -190,13 +198,11 @@ turn on Google Maps Android API v2
 - Paste your SHA-1 fingerprint, a semicolon, then your app's App ID
 - Save the resulting "Key for Android Apps (with certificates)"
 
-![img](../assets/image14.png)
-
 --- 
 
 # Update tiapp.xml
 
-![img](../assets/image15.png)
+![left](../assets/image15.png)
 
 - Download module from Marketplace, and install
 - Copy sample XML from the docs into your ```tiapp.xml```
@@ -227,6 +233,10 @@ Add static or animated "camera" to enable 3D perspective
 - heading: camera aiming, relative to true north
 - pitch: viewing angle (0 straight down)
 
+---code
+
+# Camera View
+
 ```javascript
 // add the iOS7-specific camera view 
 if(OS_IOS && parseInt(Ti.Platform.version, 10)>=7) { 
@@ -251,10 +261,6 @@ if(OS_IOS && parseInt(Ti.Platform.version, 10)>=7) {
      $.map.addEventListener('complete', animCam); 
 } 
 ```
-
---- 
-
-# Maps Demo
 
 --- 
 
