@@ -8,7 +8,7 @@ Appcelerator SDK Fundamentals
 
 ---cover
 
-# Alloy Overview
+# iOS Deep Dive
 
 ## Appcelerator SDK Fundamentals
 
