@@ -34,7 +34,7 @@ Appcelerator SDK Fundamentals
 
 # Alloy MVC
 
-![right](../images/image6.png)
+![right](../assets/image6.png)
 
 - Views
 - Styles
@@ -77,7 +77,7 @@ For example, the style on the right defines the background color of the window; 
 	color:'#999'
 },
 "#myImageView":{
-	image:"/images/apple_logo.jpg",
+	image:"/assets/apple_logo.jpg",
 	width:24,
 	height:24,
 	top:100
