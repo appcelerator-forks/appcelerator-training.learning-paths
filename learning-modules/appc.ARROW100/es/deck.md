@@ -84,7 +84,7 @@ Appcelerator Certified Developer (ACD) Training
 
 # Locking Orientation on Android
 
->![image001.png](../assets/../assets/tips.gif) **TIP:** By default, Android supports all orientations.
+>![image001.png](../assets/tips/tips.gif) **TIP:** By default, Android supports all orientations.
 
 - Copy `<application>` node & all its `<activity>` tags from `build/android/AndroidManifest.xml`
 - Paste into `tiapp.xml`, between `<android><manifest></manifest></android>` tags

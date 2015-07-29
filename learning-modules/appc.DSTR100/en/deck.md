@@ -120,7 +120,7 @@ tool-api-level no longer supported or needed
 
 # Required Assets in your App
 
->![image001.png](../assets/../assets/tips.gif) **TIP:** All of these must be present in your IPA file. Apple will check.
+>![image001.png](../assets/tips/tips.gif) **TIP:** All of these must be present in your IPA file. Apple will check.
 
 - App icons for all supported devices and resolutions
 - Extra icons (for Settings app, Spotlight, etc.)

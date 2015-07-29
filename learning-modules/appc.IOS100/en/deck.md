@@ -248,7 +248,7 @@ Left/Right nav buttons for in-app navigation
 
 # Tabbed Bar
 
->![image001.png](..../assets/../assets/tips.gif) **TIP:** Buttons maintain selected state!
+>![image001.png](..../assets/tips/tips.gif) **TIP:** Buttons maintain selected state!
 
 ```xml
 <TabbedBar platform="ios" onClick="doSomething"> 

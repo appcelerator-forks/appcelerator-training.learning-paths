@@ -108,7 +108,7 @@ Computation is usually not the bottleneck, RAM is
 |iPad ~30-50 MB|ICS - 24 MB|
 ||ICS w/ "large heap" - 128 MB|
 
->![image001.png](..../assets/info.png) **NOTE:** Apple does not publish information about their app termination threshold.
+>![image001.png](..../assets/tips/info.png) **NOTE:** Apple does not publish information about their app termination threshold.
 
 ---
 

@@ -77,7 +77,7 @@ var webview = Ti.UI.createWebView({
 win.add(webview); 
 ```
 
->![image001.png](../info.png) **NOTE:** 
+>![image001.png](../assets/tips/info.png) **NOTE:** 
 > - HTML, JS, etc. in the assets folder with Alloy
 > - In Resources for non-Alloy
 > - OK to put into subdirectories of those locations

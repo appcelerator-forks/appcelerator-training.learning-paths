@@ -332,7 +332,7 @@ Just like with web applications, you should:
 
 ![img](../assets/image9.png)
 
->![image001.png](../assets/info.png) **NOTE:** Some links work only on device
+>![image001.png](../assets/tips/info.png) **NOTE:** Some links work only on device
 
 ---
 
@@ -350,9 +350,9 @@ Just like with web applications, you should:
 ![img](../assets/image10.png)
 ![img](../assets/image11.png)
 
->![image001.png](../assets/info.png) **NOTE:** Sharing data between apps via UIPasteBoard only works for apps in the same application group in iOS7.  Apps that have the same Bundle Seed ID
+>![image001.png](../assets/tips/info.png) **NOTE:** Sharing data between apps via UIPasteBoard only works for apps in the same application group in iOS7.  Apps that have the same Bundle Seed ID
 
->![image001.png](../assets/../assets/tips.gif) **TIP:** It's possible to extend Titanium to read and write NSData to iOS Camera Roll as bitmap (.bmp) file.  See [https://github.com/burczyk/Camouflage](https://github.com/burczyk/Camouflage). 
+>![image001.png](../assets/tips/tips.gif) **TIP:** It's possible to extend Titanium to read and write NSData to iOS Camera Roll as bitmap (.bmp) file.  See [https://github.com/burczyk/Camouflage](https://github.com/burczyk/Camouflage). 
 
 ---
 
