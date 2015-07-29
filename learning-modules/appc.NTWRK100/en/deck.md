@@ -16,157 +16,156 @@ Appcelerator SDK Fundamentals
 
 # In this lesson, you will:
 
-- Explore the purpose of modules and identify sources of modules
-- Install a module for use in an Appcelerator project
+- Use the HTTPClient API to fetch remote data
+- Explore how to upload and download files
+- Work with JSON and XML data retrieved from the network
+- Learn how to work with SOAP data
 
----section 
+---section
 
-# MODULE OVERVIEW & QUICK-TOUR
+# Making The Connection
 
---- 
+---
 
-# Appcelerator Modules
+# The XMLHTTPRequest Object
+![img](/assets/images/slides/8/image6.png)
 
-![img](../assets/image6.png)
+- In the web browser, Ajax requests rely on the XMLHTTPRequest object provided by the browser
+- In Titanium the app is the client, everything else should be the same
 
-- Add 'missing' features
-- Narrow use cases
-- Appcelerator & Community created
-- Free, one-time, & subscription-based
-- Can connect to enterprise data sources
+---
 
---- 
+# The HTTPClient Object
+- ```Ti.Network.HTTPClient``` implements the XHR specification
+- Low level HTTP client interface with support for most HTTP verbs
+- Should be familiar to Ajax programmers
 
-# Module Distribution
+---
 
-- Some distributed with Appcelerator
-  - Need to be loaded via ```tiapp.xml```
-- Download from [Appcelerator Marketplace](http://marketplace.appcelerator.com)
-- Community developed:
-  - [http://www.github.com](http://www.github.com)
-  - [http://www.gitt.io](http://www.gitt.io)
-- Variety of licensing options
-  - Per month, per user, per app, free
+# A GET Network Request
 
---- 
+```javascript
+// index.jsvar xhr = Ti.Network.createHTTPClient(); 
+xhr.onload = function() { 
+  // do something with the response payload 
+}; 
+xhr.open('GET', 'http://example.com/endpoint'); 
+xhr.send(); 
+```
 
-# Built-in Modules
+---
 
-![img](../assets/image7.png)
+# A POST Network Request
 
---- 
+```javascript
+/network.jsvar xhr = Ti.Network.createHTTPClient(); 
+xhr.onload = function() { 
+     // do something with the response payload 
+}; 
+xhr.open('POST', 'http://example.com/endpoint'); 
+// set HTTP headers here, if required 
+xhr.send({myvariable: 'value'}); 
+```
 
-# Appcelerator Open Source Modules
+---
 
-Available at [http://github.com/appcelerator/titanium_modules](http://github.com/appcelerator/titanium_modules)
+# Lifecycle Callbacks
+- onload: function called when HTTP request returns (200 status code)
+- onerror: function called when HTTP error received (404, 500, etc.)
+- onreadystatechange:low-level handler for HTTP state
+- onsendstream/ondatastream:file upload/download
 
-![img](../assets/image8.png)
+---
 
---- 
+# Return Data
 
-# Appcelerator Marketplace
+```javascript
+/network.jsvar xhr = Ti.Network.createHTTPClient(); 
+xhr.onload = function() { 
+     // this.responseText = returned data as text 
+     // this.responseData = returned data as blob 
+     // this.responseXML = returned data as XML object 
+}; 
+xhr.open('GET', 'http://example.com/endpoint'); 
+xhr.send();
+```
 
-![img](../assets/image9.png)
+---
 
---- 
+# Mobile Web Considerations
+- Must consider cross-domain security issues — app is running in a browser
+- Either set up CORS header support on your server
+- Or, configure a proxy service
 
-# PayPal (iOS and Android)
+---section
 
-![img](../assets/image11.png)
+# Data Transport Formats
+---
 
-- Mobile Payments Library
-- Requires PayPal merchant account
-- In development, uses sandbox environment, in production uses live servers
+# Working With JSON
 
---- 
+- Recommended data transport format for Titanium Mobile - compact and efficient
+- Super easy to serialize/rehydrate data
+- JSON.parse() — convert string to JavaScript object
+- JSON.stringify() - convert JavaScript object to string
 
-# StoreKit & In-App Billing
+```javascript
+var character = { name: 'Thomas Anderson', nickname: 'Neo'}; 
+var asJSON = JSON.stringify(character); 
+var sameCharacter = JSON.parse(asJSON); 
+```
 
-- StoreKit — iTunes App Store integration
-- In-App Billing — Google Play integration
-- StoreKit can be used for in-app purchases, digital goods
-- Free from Appcelerator
+---
 
---- 
+# Working With XML
 
-# Advertising modules
+- XML DOM Level 2 API built in
+- XML document by referring to this.responseXML
+- XML related functions in the Ti.XML namespace
+- More data over the wire, but still commonly used
 
-- Admob, Millennial Media, Greystripe, and InMobi from Appcelerator
-- Tap for Tap, Flurry/AppCircle, and more from third-parties
-- Some free, some not
+---
 
---- 
+# XML Example
 
-# Community Contributions
+```javascript
+var RSS_URL = http://feeds.mashable.com/Mashable?format=xml
+var xhr = Titanium.Network.createHTTPClient();
+xhr.onload = function(e) {
+    var xml = this.responseXML;
+    var items = xml.documentElement.getElementsByTagName("item");
+    var data=[];
+    for (var i = 0; i < items.length; i++) {
+        var item = items.item(i);
+        data.push({
+            title: getRssText(item, 'title'),
+	 link: getRssText(item, 'link'),
+	 pubDate: parseDate(getRssText(item, 'pubDate')),
+        });
+    }
+}
+xhr.open('GET', RSS_URL);
+```
 
-![img](../assets/image12.png)
-![img](../assets/image13.png)
+---
 
----section 
+# A Few Words on SOAP
+- 'Simple Object Access Protocol'- possibly the most ironic acronym in tech history
+- At the end of the day, it is just a layer of abstraction over the top of XML and HTTP
+- Plan A: Use a server-side proxy to return JSON
+- Plan B: Use the Suds helper library (github.com/kwhinnery/Suds)
+- Plan C: Manually construct SOAP envelopes
 
-# INSTALLING MODULES
-
---- 
-
-# Installing a Module
-
-![img](../assets/image14.png)
-
-- Download zip file, or copy URL to zip file
-- Choose Help, Install Mobile Module
-- Paste URL or browse to location
-- Choose Titanium SDK (for use in all future projects) or a specific project
-
---- 
-
-# Manually Installing for a Single Project
-
-1. Download zip file
-2. Place in project's root directory
-3. Build once — to unzip and create necessary folders
-
---- 
-
-# Manually Installing for Multiple Projects
-
-- Download zip file
-- Unzip to ```%TITANIUM_INSTALL_DIR%/modules``` directory
-
-![img](../assets/image15.png)
-
----section 
-
-# LOADING & USING MODULES
-
---- 
-
-# Loading a Module
-
-![img](../assets/image16.png)
-
---- 
-
-# View-based Modules
-
-![img](../assets/image17.png)
-
---- 
-
-# Modules in the Controller
-
-- Must ```require()``` module in your controller to use its functions
-- (Every marketplace module comes with example and doc)
-
-![img](../assets/image18.png)
-
---- 
+---
 
 # Summary
 
 In this lesson, you:
 
-- Explored the purpose of modules and identified sources of modules
-- Installed a module for use in an Appcelerator project
+- Used the HTTPClient API to fetch remote data
+- Explored how to upload and download files
+- Worked with JSON and XML data retrieved from the network
+- Learned how you could work with SOAP data
 
 ---section
 
