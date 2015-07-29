@@ -70,23 +70,24 @@ An opinionated framework to build and deploy applications to the cloud.
 
 ---
 
-# Arrrow Cloud Component
+# Arrrow Cloud Components
 
 - **ArrowDB** (formerly known as Appcelerator Cloud Services) pre-built REST objects and services.- **Arrow Push** notification service for iOS and Android.
 
-![css width:300px;position:absolute;top:80%;](../assets/image8.png)
+![css position:absolute;top:80%;](../assets/image7.png)
 
 ---
 
 # Platform Architecture Diagram
 
-![img](../assets/image8.png)
+![css position:absolute;top:80%;width:600px;](../assets/image8.jpeg)
+![css position:absolute;left:5%;](../assets/image9.png)
 
 ---
 
 # Arrow Cloud APIs
 
-![img](../assets/image8.png)
+![img](../assets/image10.png)
 
 ---
 
@@ -100,13 +101,16 @@ An opinionated framework to build and deploy applications to the cloud.
 
 # Public or VPC?
 
----
-
-# Appc Platform Data Flow
-
----
-
-# Data Flows in the VPC
+|   | Public Cloud (U.S.)  | VPC  |
+|---|---|---|
+| Dedicated infrastructure for data | No  | Yes  |
+| Dedicated Dev/Test environments  | No  | Yes |
+| Multi-region support  | No  | Yes |
+| Disaster recovery  | Yes (Node redundancy)  | Yes (Node and Geo-redundancy)  |
+| SLA  |  99.0% | 99.95%  |
+| Security  |  Client SSL, Server SSL | Client SSL, Server SSL, (AES-256) file & DB encryption, VPN  |
+| S/W Patching & Upgrading Scheduling  | No | Yes |
+| Support Response Time  | Standard (8x5), Premier (24x7), Platinum (24x7) | Standard (8x5), Premier (24x7), Platinum (24x7) |
 
 ---section
 
@@ -126,20 +130,20 @@ An opinionated framework to build and deploy applications to the cloud.
 
 **New Apps**
 
-![img](../assets/image11.png)
+![img](../assets/image13.png)
 
 **Existing Apps**
 
-![img](../assets/image11.png)
+![img](../assets/image14.png)
 
 ---
 
 # Registration results
 
-![img](../assets/image12.png)
-![img](../assets/image13.png)
+![css width:450;position:absolute;left:5%;](../assets/image15.png)
+![css width:450;position:absolute;left:20%;](../assets/image16.png)
 
-Creates a new ArrowDB application that you can manage using Appcelerator Dashboard.Adds the ti.cloud module to your tiapp.xmlAdds application keys to tiapp.xml used to authenticate your application when making ArrowDB method calls.
+- Creates a new ArrowDB application that you can manage using Appcelerator Dashboard.- Adds the ti.cloud module to your tiapp.xml- Adds application keys to tiapp.xml used to authenticate your application when making ArrowDB method calls.
 
 ---
 
@@ -147,11 +151,11 @@ Creates a new ArrowDB application that you can manage using Appcelerator Dashboa
 
 Dashboard -> Create new Native Application
 
-![css width:300px;](../assets/image13.png)
+![css width:300px;](../assets/image17.png)
 
 Download iOS / Android SDK
 
-![css width:300px;](../assets/image13.png)
+![css width:300px;](../assets/image18.png)
 
 ---code
 
@@ -243,7 +247,7 @@ exports.definition = {
 
 # Management
 
-![img](../assets/image14.png)
+![img](../assets/image19.png)
 
 ---
 
@@ -257,7 +261,7 @@ exports.definition = {
 
 # Arrow Cloud Docs
 
-![img](../assets//image15.png)
+![img](../assets//image20.png)
 
 - [http://docs.appcelerator.com/cloud/latest/](http://docs.appcelerator.com/cloud/latest/)
 - [http://docs.appcelerator.com/cloud/latest/#!/guide/acs_quickstart](http://docs.appcelerator.com/cloud/latest/#!/guide/acs_quickstart)
@@ -267,7 +271,7 @@ exports.definition = {
 
 # Arrow Cloud Kitchen Sink
 
-![img](../assets//image16.png)
+![img](../assets//image21.png)
 
 - Example application provided with SDK
 - Installed to SDK directory
@@ -275,7 +279,7 @@ exports.definition = {
 
 ---section
 
-# PUSH NOTIFICATION BASICS
+# Push Notification Basics
 
 ---
 
@@ -424,7 +428,7 @@ Management Screen allows:
 
 # Managing Geo Fences
 
-![right](../assets/image17.png)
+![right](../assets/image22.png)
 
 Geo Fence has the following unique fields:
 
@@ -443,7 +447,7 @@ To create a Geo Fence object:
 1. Click Create Geo Fence
 2. For Location Type, select either Place or Geo Coordinates
 3. For Place, click (+) and search/ select existing Place.  You can also Create a new Place.
-	a: ![img](../assets/image18.png)
+	a: ![css height:100px;](../assets/image23.png)
 	b: For Geo Coordinates, enter the latitude and longitude
 4. For Radius, enter distance in Miles or Meters.
 5. For Payload, enter JSON-formatted string containing the data returned if the geo-fence area intersects the device’s location
