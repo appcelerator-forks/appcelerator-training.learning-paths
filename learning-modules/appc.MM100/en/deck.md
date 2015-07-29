@@ -211,7 +211,7 @@ $.galleryButton.addEventListener('click', function() {
 
 # Ti.Media
 
-![img](../assets/image7.png)
+![left](../assets/image7.png)
 
 - Media constants
 - Helper properties (e.g. isCameraSupport)
