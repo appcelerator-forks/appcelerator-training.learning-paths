@@ -2,13 +2,13 @@ theme:appcelerator-training
 tableclass:striped
 progress:true
 
-# Alloy Overview
+# User Interface
 
 Appcelerator SDK Fundamentals
 
 ---cover
 
-# Alloy Overview
+# User Interface
 
 ## Appcelerator SDK Fundamentals
 
@@ -23,7 +23,7 @@ Appcelerator SDK Fundamentals
 
 ---section
 
-# UI COMPONENTS
+# UI Components
 
 ---
 
@@ -49,6 +49,8 @@ Appcelerator SDK Fundamentals
 
 # View Hierarchy - Window-based apps
 
+![left](../assets/image6.png)
+
 - Single window (no tabs)
 - Views inside window or other views
 
@@ -63,11 +65,11 @@ Appcelerator SDK Fundamentals
 </Alloy> 
 ```
 
-![img](../assets/image6.png)
-
 --- 
 
 # View Hierarchy - Tab-based apps
+
+![left](../assets/image7.png)
 
 - Tab group with 1+ tabs
 - Each tab has one window
@@ -86,20 +88,18 @@ Appcelerator SDK Fundamentals
 
 ```
 
-![img](../assets/image7.png)
-
 --- 
 
 #	 iOS 7 UI Components
 
-![img](../assets/image9.png)
+![](../assets/image9.png)
 
 --- 
 
 # Android 4.x User Interface Components
 
-![img](../assets/image11.png)
-![img](../assets/image12.png)
+![left](../assets/image11.png)
+![right](../assets/image12.png)
 
 ---
 
@@ -123,11 +123,15 @@ todo
 
 # Positioning
 
+![left](../assets/image15.png)
+
 - top and left
 - bottom and right
 - center
 
-![img](../assets/image15.png)
+---code
+
+# Positioning
 
 ```xml
 <View id=“red” />
@@ -149,12 +153,17 @@ todo
 }
 ```
 
---- 
+---code 
 
 # Units
 
 - Absolute measurements: px (pixels), dp/dip, mm, cm, in
 - Relative measurements: % = percent of the parent's height or width
+
+Default units:
+
+- Android = pixels
+- iOS = dip
 
 ```javascript
 var view = Ti.UI.createView({ 
@@ -166,20 +175,17 @@ var view = Ti.UI.createView({
  }); 
 ```
 
-Default units:
-
-- Android = pixels
-- iOS = dip
-
 --- 
 
 # Auto' Behaviors
 
-- You can use Ti.UI.SIZE or Ti.UI.FILL instead of actual height/width value
+You can use Ti.UI.SIZE or Ti.UI.FILL instead of actual height/width value
+
   - SIZE: fits to contents
   - FILL: fills relative to parent
 
-- Defaults (if you don't set a height/width)
+Defaults (if you don't set a height/width)
+
   - Buttons, Labels, ImageView, TextFields and TextAreas = Ti.UI.SIZE
   - Window, View, TableView, WebView = Ti.UI.FILL
   - TableViewRow = FILL for width and SIZE for height
@@ -188,13 +194,14 @@ Default units:
 
 # Coordinates Grid
 
+![left](../assets/image16.png)
+
 - iPhone 3/4 - 320 x 480 points (4:3)
 - iPhone 5 - 320 x 568 points (16:9)
 - iPhone 6 - 375 x 667 points (16:9)
 - iPhone 6 Plus - 414 x 736 points (16:9)
 - iPad 1/2/3 - 1024 x 768 points (4:3)
 
-![img](../assets/image16.png)
 
 - Android sizes vary (examples):
 - HVGA = 320 by 480 px (4:3)
@@ -205,17 +212,17 @@ Default units:
 
 # Layout modes
 
+![right](../assets/image17.png)
+
 - Absolute
 - Vertical
 - Horizontal
 
-![img](../assets/image17.png)
-
---- 
+---code 
 
 # Absolute Layout
 
-![img](../assets/image18.png)
+![left](../assets/image18.png)
 
 ```xml
 <Button id=“SaveBtn”>Save my Information</Button>
@@ -229,11 +236,11 @@ Default units:
 }
 ```
 
---- 
+---code 
 
 # Vertical Layout
 
-![img](../assets/image19.png)
+![left](../assets/image19.png)
 
 ```javascript
 “Window”:{
@@ -282,7 +289,7 @@ Default units:
 - You can add custom listeners to nearly any object in your app
 - You can fire any user-generated or custom type event (not the system events though)
 
---- 
+---code 
 
 # Example
 
@@ -301,7 +308,7 @@ function ouch() {
 $.btn.addEventListener('click', ouch); 
 ```
 
---- 
+---code 
 
 # Removing Event Listeners
 
@@ -319,7 +326,7 @@ function ouch() {
 $.btn.addEventListener('click', ouch); 
 ```
 
---- 
+---code
 
 # Event Object Properties
 
@@ -339,9 +346,9 @@ $.textField.addEventListener('change', function(e) {
 
 # Events Documentation
 
-![img](../assets/image20.png)
+![left](../assets/image20.png)
 
-![img](../assets/image21.png)
+![right](../assets/image21.png)
 
 --- 
 
@@ -353,7 +360,7 @@ $.textField.addEventListener('change', function(e) {
 - ```Ti.App.addEventListener```
 - ```Ti.App.removeEventListener```
 
---- 
+---code 
 
 # App Events Example
 
@@ -390,12 +397,13 @@ Ti.App.addEventListener('databaseUpdated', function() {
 
 # App icons - iOS
 
+Alloy: ```app/assets``` or ```app/assets/iphone```
+
 |iPhone 6 Plus(@3x)| iPhone 6 and iPhone 5 (@2x) | iPhone 4s(@2x) | iPad and iPad mini(@2x) | iPad 2 and iPad mini(@1x) |
 |-|-|-|-|
 | Non-retina | | | appicon-60.png(60x60px) | | appicon-76.png(76x76px)|
 | Retina | appicon@3x.png(180x180px) | appicon-60@2x.png(120x120px) | appicon-60@2x.png(120x120px) | appicon-76@2x.png(152x152px) | |
 
-Alloy: ```app/assets``` or ```app/assets/iphone```
 
 --- 
 
@@ -415,6 +423,8 @@ Simple solution: place a single ```appicon.png``` in ```app/assets```, or ```ap
 
 # Launch Screens - iOS
 
+## iOS
+
 | | | |
 |-|-|-|
 |Default.png|Non-retina iPhone/iPod|320x480|
@@ -429,28 +439,26 @@ Simple solution: place a single ```appicon.png``` in ```app/assets```, or ```ap
 
 # Launch Screens - Android
 
+![left](../assets/image22.png)
+
 - **Option 1**: Use a single default.png in app/assets/android*Will be stretched to fit screen size and proportions
 - **Option 2**: Put size/resolution-specific versions of default.png in res directories*No tablet sizes supported
 - **Option 3**: Use a 9-patch image*Use android 9patch tool
-
-![img](../assets/image22.png)
-
-![img](../assets/image23.png)
 
 --- 
 
 # Internationalization
 
+![css position:absolute;left:5%;](../assets/image24.png)
+
+![css position:absolute;left:12%;](../assets/image25.png)
+
+![css position:absolute;left:20%;float:left;](../assets/image26.png)
+
 - multiple languages
 - Localized app name
-- Localizaed Images and file resources
+- Localized Images and file resources
 - Test by changing your settings to use a different language
-
-![img](../assets/image24.png)
-
-![img](../assets/image25.png)
-
-![img](../assets/image26.png)
 
 --- 
 
@@ -462,7 +470,7 @@ Simple solution: place a single ```appicon.png``` in ```app/assets```, or ```ap
 - Which strings are shown depends on device's language setting  *not for user-switchable language selection within your app
 - The XML structure matches Android's string resources file, mapped to plist on iOS at build time
 
---- 
+---code
 
 # Using the strings
 
