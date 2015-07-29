@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Platform Overview
 
-Appcelerator SDK Fundamentals Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Platform Overview
 
-## Appcelerator SDK Fundamentals Training
+## Appcelerator SDK Fundamentals
 
 ---section
 

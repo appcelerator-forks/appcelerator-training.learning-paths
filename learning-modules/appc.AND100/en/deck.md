@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Android Deep Dive
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Android Deep Dive
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 ---
 

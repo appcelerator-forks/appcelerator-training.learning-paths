@@ -4,13 +4,13 @@ progress:true
 
 # Cross Platform Strategies
 
-SDK Fundamentals
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Cross Platform Strategies
 
-## SDK Fundamentals
+## Appcelerator SDK Fundamentals
 
 --- 
 

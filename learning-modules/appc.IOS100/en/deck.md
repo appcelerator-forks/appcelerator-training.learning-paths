@@ -1,4 +1,6 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # iOS Deep Dive
 

@@ -4,13 +4,13 @@ progress:true
 
 # Alloy Overview
 
-SDK Fundamentals
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Alloy Overview
 
-## SDK Fundamentals
+## Appcelerator SDK Fundamentals
 
 --- 
 
