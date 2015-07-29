@@ -33,9 +33,9 @@ Appcelerator SDK Fundamentals
 - ListView
 - ScrollView
 
-![img](/assets/images/slides/22/image6.png)
-![img](/assets/images/slides/22/image7.png)
-![img](/assets/images/slides/22/image8.png)
+![img](/assets/image6.png)
+![img](/assets/image7.png)
+![img](/assets/image8.png)
 
 ---
 
@@ -103,7 +103,7 @@ $.table.addEventListener('click', function(e) {
 
 # Headers and Footer Views
 
-![img](/assets/images/slides/22/image9.png)
+![img](/assets/image9.png)
 
 ```javascript
 $.table.header = 'TableView examples and test cases'; 
@@ -115,7 +115,7 @@ $.table.footerView = $.anotherView;
 
 # Table Search
 
-![img](/assets/images/slides/22/image10.png)
+![img](/assets/image10.png)
 
 ```xml
 <Alloy>
@@ -153,7 +153,7 @@ $.table.addEventListener('click', function(e){
 
 # Row Indicators
 
-![img](/assets/images/slides/22/image11.png)
+![img](/assets/image11.png)
 
 ```javascript
 /* in the TSS */ 
@@ -229,7 +229,7 @@ $.table.addEventListener('click', function(e){
 - `DISCLOSURE`
 - `NONE`
 
-![img](/assets/images/slides/22/image12.png)
+![img](/assets/image12.png)
 
 ---
 

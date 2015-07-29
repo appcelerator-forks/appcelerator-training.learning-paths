@@ -28,7 +28,7 @@ Appcelerator Certified Developer (ACD) Training
 
 # Appcelerator Platform Overview
 
-![Platform](/assets/images/slides/1/image6.jpeg)
+![Platform](/assets/image6.jpeg)
 
 --- 
 
@@ -54,37 +54,37 @@ Enterprise Features:
 
 # Dashboard.appcelerator.com
 
-![Dashboard](/assets/images/slides/1/image7.png)
+![Dashboard](/assets/image7.png)
 
 --- 
 
 # Appcelerator Cloud Services
 
-![ACS](/assets/images/slides/1/image8.png)
+![ACS](/assets/image8.png)
 
 --- 
 
 # Appcelerator Test
 
-![ACS](/assets/images/slides/1/image9.png)
+![ACS](/assets/image9.png)
 
 --- 
 
 # Appcelerator Performance Management
 
-![ACS](/assets/images/slides/1/image10.png)
+![ACS](/assets/image10.png)
 
 --- 
 
 # Appcelerator Analytics
 
-![ACS](/assets/images/slides/1/image11.png)
+![ACS](/assets/image11.png)
 
 --- 
 
 # Appcelerator Executive Insights
 
-![ACS](/assets/images/slides/1/image12.png)
+![ACS](/assets/image12.png)
 
 --- 
 
@@ -100,7 +100,7 @@ Enterprise Features:
 
 # Powered By Appcelerator
 
-![ACS](/assets/images/slides/1/apps-1.png)
+![ACS](/assets/apps-1.png)
 
 ---section
 
@@ -114,7 +114,7 @@ Enterprise Features:
 - Appcelerator maps your JavaScript code to native components
 - Communication is two-way across the bridge
 
-![ACS](/assets/images/slides/1/image25.png)
+![ACS](/assets/image25.png)
 
 --- 
 
@@ -208,23 +208,23 @@ If you haven’t done this yet:
 
 # Documentation is Your Friend
 
-![ACS](/assets/images/slides/1/docs-1.png)
+![ACS](/assets/docs-1.png)
 
 --- 
 
 # Documentation - More Details
 
-![ACS](/assets/images/slides/1/docs-2.png)
+![ACS](/assets/docs-2.png)
 
 --- 
 
 # Example Code
 
-![ACS](/assets/images/slides/1/image30.png)
+![ACS](/assets/image30.png)
 
 [https://github.com/appcelerator](https://github.com/appcelerator)
 
-![ACS](/assets/images/slides/1/image31.png)
+![ACS](/assets/image31.png)
 
 [https://github.com/appcelerator-developer-relations](https://github.com/appcelerator-developer-relations)
 
@@ -232,11 +232,11 @@ If you haven’t done this yet:
 
 # Getting Help
 
-![ACS](/assets/images/slides/1/image32.png)
+![ACS](/assets/image32.png)
 
 [https://support.appcelerator.com](https://support.appcelerator.com)
 
-![ACS](/assets/images/slides/1/image33.png)
+![ACS](/assets/image33.png)
 
 [https://developer.appcelerator.com/questions/newest](https://developer.appcelerator.com/questions/newest)
 

@@ -62,7 +62,7 @@ Appcelerator SDK Fundamentals
 
 # Variables
 
->![image001.png](assets/tips.gif) **TIP:** Always declare using var keyword.
+>![image001.png](../assets/tips.gif) **TIP:** Always declare using var keyword.
 
 ```javascript
 var x = 1; 
@@ -246,7 +246,7 @@ var total = sum(100, 200);
 
 # Function Callbacks
 
->![image001.png](assets/tips.gif) **TIP:** Great when ```getAsyncData()``` might take a long time to run (like when accessing the network).
+>![image001.png](../assets/tips.gif) **TIP:** Great when ```getAsyncData()``` might take a long time to run (like when accessing the network).
 
 ```javascript
 var getAsyncData = function(fn) { 

@@ -56,7 +56,7 @@ circle.animate({
 
 For animations, is a set of properties that describe the transformation of an object in a manner that a computer can process and execute 
 
-![img](/assets/images/slides/21/image6.png)
+![img](/assets/image6.png)
 
 - It offers more options for animation
 - [http://en.wikipedia.org/wiki/Matrix_(mathematics)](http://en.wikipedia.org/wiki/Matrix_(mathematics))  if you're interested 
@@ -65,7 +65,7 @@ For animations, is a set of properties that describe the transformation of an ob
 
 # Matrix 2D animations
 
-![img](/assets/images/slides/21/image7.png)
+![img](/assets/image7.png)
 
 Transform objects in 2D space 
 
@@ -77,17 +77,17 @@ Transform objects in 2D space
 
 # 2D Matrix
 
-![img](/assets/images/slides/21/image10.png)
-![img](/assets/images/slides/21/image11.png)
+![img](/assets/image10.png)
+![img](/assets/image11.png)
 
 Matrices and matrix multiplication reveal their essential features when related to linear transformations, also known as linear maps.
 
 **2D Matrix Examples**
 
-![img](/assets/images/slides/21/image12.png)
-![img](/assets/images/slides/21/image13.png)
-![img](/assets/images/slides/21/image14.png)
-![img](/assets/images/slides/21/image15.png)
+![img](/assets/image12.png)
+![img](/assets/image13.png)
+![img](/assets/image14.png)
+![img](/assets/image15.png)
 
 ---
 
@@ -121,7 +121,7 @@ From last project:
 
 # Matrix 3D Animation (iOS)
 
-![img](/assets/images/slides/21/image16.png)
+![img](/assets/image16.png)
 
 Transforming objects in 3D space 
 
@@ -136,8 +136,8 @@ Transforming objects in 3D space
 
 A 3D matrix is used to rotate, scale, translate, or skew the objects through space.
 
-![img](/assets/images/slides/21/image17.png)
-![img](/assets/images/slides/21/image18.png)
+![img](/assets/image17.png)
+![img](/assets/image18.png)
 
 ---
 
@@ -259,7 +259,7 @@ $.navWindow.open(); 
 
 # Animator Example
 
-![img](/assets/images/slides/21/image19.png)
+![img](/assets/image19.png)
 
 ```javascript
 // Create an Animator object using the window as the coordinate system 

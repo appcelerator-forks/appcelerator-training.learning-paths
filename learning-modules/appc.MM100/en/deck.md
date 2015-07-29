@@ -2,13 +2,13 @@ theme:appcelerator-training
 
 # Multimedia
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Multimedia
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 --- 
 

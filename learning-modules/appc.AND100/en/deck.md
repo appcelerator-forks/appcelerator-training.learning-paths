@@ -69,7 +69,7 @@ Need to test as widely as possible ... on device
 
 It is necessary to understand and implement these in AppC to provide a truly native experience
 
->![image001.png](/assets/images/info/tips.gif) **TIP:** Read the official [Android fundamentals](http://developer.android.com/guide/topics/fundamentals.html) docs.
+>![image001.png](../tips.gif) **TIP:** Read the official [Android fundamentals](http://developer.android.com/guide/topics/fundamentals.html) docs.
 
 ---
 
@@ -115,7 +115,7 @@ For example, a broadcast announcing that the screen has turned off, the battery 
 
 # All of these work in Appcelerator
 
-![img](/assets/images/slides/26/image6.png)
+![img](/assets/image6.png)
 
 ---section
 
@@ -134,7 +134,7 @@ For example, a broadcast announcing that the screen has turned off, the battery 
 
 # Configuration in Tiapp.xml
 
-![img](/assets/images/slides/26/image7.png)
+![img](/assets/image7.png)
 
 1. Build once to generate stock `build/android/AndroidManifest.xml`
 2. Copy pertinent tags from generated file (e.g. all of the `<application>` block)
@@ -146,7 +146,7 @@ For example, a broadcast announcing that the screen has turned off, the battery 
 
 # Custom Android Manifest
 
-![img](/assets/images/slides/26/image8.png)
+![img](/assets/image8.png)
 
 ---
 
@@ -187,8 +187,8 @@ win.open({
 - Pre-ICS: shown at bottom of screen as slide up tray
 - ICS: either in Action Bar or in bottom bar as ellipsis button
 
-![img](/assets/images/slides/26/image11.png)
-![img](/assets/images/slides/26/image12.png)
+![img](/assets/image11.png)
+![img](/assets/image12.png)
 
 ---
 
@@ -298,7 +298,7 @@ win.open({
 - Define stretchable areas of your graphic
 - Enable through Android theme modification
 
-![img](/assets/images/slides/26/image13.png)
+![img](/assets/image13.png)
 
 ---
 
@@ -354,7 +354,7 @@ win.open({
 - Can control positioning on screen
 - Rendering will be different based on OS version and skin
 
-![img](/assets/images/slides/26/image14.png)
+![img](/assets/image14.png)
 
 ```javascript
 var n = Ti.UI.createNotification({message:"Howdy folks"}); 
@@ -376,7 +376,7 @@ n.show();
 - Invoke using Intents
 - Example:[http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.Android.NotificationManager](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.Android.NotificationManager)
 
-![img](/assets/images/slides/26/image15.png)
+![img](/assets/image15.png)
 
 ---
 

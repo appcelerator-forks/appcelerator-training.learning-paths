@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Appcelerator Platform
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Appcelerator Platform
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 --- 
 
@@ -56,7 +58,7 @@ Appcelerator Certified Developer (ACD) Training
 
 All Platform services now can be used with legacy applications developed with a native SDK (iOS/Android)
 
-![img](/assets/images/slides/18/image20.png)
+![img](/assets/image20.png)
 
 --- 
 
@@ -66,9 +68,9 @@ Provide a name, platform, a category
 Appcelerator services will be enabled
 Download different SDKs for each service you want to integrate
 
-![img](/assets/images/slides/18/image21.png)
-![img](/assets/images/slides/18/image22.png)
-![img](/assets/images/slides/18/image23.png)
+![img](/assets/image21.png)
+![img](/assets/image22.png)
+![img](/assets/image23.png)
 
 --- 
 
@@ -89,7 +91,7 @@ Download different SDKs for each service you want to integrate
 - User can select a filter options
 - The data in the dashboard page will be updated based on set filters
 
-![img](/assets/images/slides/18/image24.png)
+![img](/assets/image24.png)
 
 --- 
 
@@ -100,7 +102,7 @@ Download different SDKs for each service you want to integrate
 1. Export Chart Data to export the data in the chart
 2. Export Table Data to export the data in the table
 
-![img](/assets/images/slides/18/image25.png)
+![img](/assets/image25.png)
 
 --- 
 

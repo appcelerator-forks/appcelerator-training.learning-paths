@@ -46,14 +46,14 @@ Appcelerator SDK Fundamentals
 
 # Windows "Extend" to Fill the Screen
 
-![img](/assets/images/slides/17/image8.png)
+![img](/assets/image8.png)
 
 --- 
 
 # View Shadows & Clipping
 
-![img](/assets/images/slides/17/image9.png)
-![img](/assets/images/slides/17/image10.png)
+![img](/assets/image9.png)
+![img](/assets/image10.png)
 
 ```javascript
 "#box":{
@@ -179,14 +179,14 @@ Left/Right nav buttons for in-app navigation
 
 # Toolbars
 
-![img](/assets/images/slides/17/image13.png)
+![img](/assets/image13.png)
 
 - Buttons perform actions related to current context
 - Create button objects first, store in an array
 - Pass the array to the Toolbar object
 - Aim for 44 x 44 point hit area for buttons
 
-![img](/assets/images/slides/17/image14.png)
+![img](/assets/image14.png)
 
 ```xml
 <Window id="win">
@@ -206,7 +206,7 @@ Left/Right nav buttons for in-app navigation
 
 # Keyboard Toolbars
 
-![img](/assets/images/slides/17/image15.png)
+![img](/assets/image15.png)
 
 ```xml
 <Alloy>
@@ -228,8 +228,8 @@ Left/Right nav buttons for in-app navigation
 
 # Button Bar
 
-![img](/assets/images/slides/17/image16.png)
-![img](/assets/images/slides/17/image17.png)
+![img](/assets/image16.png)
+![img](/assets/image17.png)
 
 ```xml
 <ButtonBar platform="ios" onClick="doSomething"> 
@@ -276,12 +276,12 @@ function doSomething(e){
 
 Apply fonts and styles to ranges of characters in a Label, TextArea or TextField 
 
-![img](/assets/images/slides/17/image18.png)
+![img](/assets/image18.png)
 --- 
 
 # Dynamic Type (textStyle)
 
-![img](/assets/images/slides/17/image19.png)
+![img](/assets/image19.png)
 
 --- 
 
@@ -289,7 +289,7 @@ Apply fonts and styles to ranges of characters in a Label, TextArea or TextField
 
 Communicates status to the user, their attention is needed in part of the app
 
-![img](/assets/images/slides/17/image20.png)
+![img](/assets/image20.png)
 
 ```javascript
 var tab = Ti.UI.currentTab; 
@@ -301,7 +301,7 @@ tab.badge = null; // to remove it 
 
 # App Badge
 
-![img](/assets/images/slides/17/image21.png)
+![img](/assets/image21.png)
 
 ```javascript
 Ti.UI.iPhone.appBadge = 14; 
@@ -312,7 +312,7 @@ Ti.UI.iPhone.appBadge = null; 
 
 # CoverFlow View
 
-![img](/assets/images/slides/17/image22.png)
+![img](/assets/image22.png)
 
 ```xml
 <Alloy>
@@ -335,7 +335,7 @@ Ti.UI.iPhone.appBadge = null; 
 
 # Dashboard View
 
-![img](/assets/images/slides/17/image23.png)
+![img](/assets/image23.png)
 
 - Springboard-like view
 - Use as app home screen
@@ -375,7 +375,7 @@ function toggleEditMode(e) {
 - Must join Apple's iAd program
 - Get test ads only during development
 
-![img](/assets/images/slides/17/image24.png)
+![img](/assets/image24.png)
 
 ```javascript
 var iad = Ti.UI.iOS.createAdView({ 
@@ -490,7 +490,7 @@ Ti.App.iOS.addEventListener('notification',
 2. Access settings as properties with Ti.App.Properties
 3. Do clean-build of your project
 
-![img](/assets/images/slides/17/image26.png)
+![img](/assets/image26.png)
 
 **Creating the Settings Bundle**
 
@@ -507,7 +507,7 @@ Ti.App.iOS.addEventListener('notification',
 
 # SplitWindow
 
-![img](/assets/images/slides/17/image26.png)
+![img](/assets/image26.png)
 
 - Full-screen, two-pane view
 - Left pane fixed at 320 points

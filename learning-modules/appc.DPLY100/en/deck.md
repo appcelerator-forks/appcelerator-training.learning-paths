@@ -52,11 +52,11 @@ To deploy to an Android device you must:
 
 **Android 2.x**
 
-![img](/assets/images/slides/16/image6.png)
+![img](/assets/image6.png)
 
 **Android 4.x**
 
-![img](/assets/images/slides/16/image7.png)
+![img](/assets/image7.png)
 
 >![image001.png](/assets/images/info/tips.gif) **TIP:** To enable developer settings on **Android 4.2+:**
 > - Go to the settings menu, and scroll down to "About phone." Tap it.
@@ -69,7 +69,7 @@ To deploy to an Android device you must:
 
 # 2. Local Android deployment
 
-![img](/assets/images/slides/16/image8.png)
+![img](/assets/image8.png)
 
 - Connect device to USB port
 - From Run menu, choose Android Device
@@ -80,7 +80,7 @@ To deploy to an Android device you must:
 
 >![image001.png](/assets/images/info/tips.gif) **TIP:** You may need to invoke ```adb kill-server``` to force ```adb``` to restart.
 
-![img](/assets/images/slides/16/image9.png)
+![img](/assets/image9.png)
 
 --- 
 
@@ -120,13 +120,13 @@ Simple: Get the APK to the user's device
 
 # 2. Developer's certificate
 
-![img](/assets/images/slides/16/image10.png)
+![img](/assets/image10.png)
 
 --- 
 
 # 3. Register devices
 
-![img](/assets/images/slides/16/image11.png)
+![img](/assets/image11.png)
 
 --- 
 
@@ -140,7 +140,7 @@ Simple: Get the APK to the user's device
 
 # 5. Provisioning profile
 
-![img](/assets/images/slides/16/image12.png)
+![img](/assets/image12.png)
 
 --- 
 
@@ -148,7 +148,7 @@ Simple: Get the APK to the user's device
 
 Option 1: Drag & Drop to Xcode
 
-![img](/assets/images/slides/16/image13.png)
+![img](/assets/image13.png)
 
 --- 
 
@@ -156,7 +156,7 @@ Option 1: Drag & Drop to Xcode
 
 Option 2: Install w/ Titanium Studio
 
-![img](/assets/images/slides/16/image14.png)
+![img](/assets/image14.png)
 
 --- 
 
@@ -216,12 +216,12 @@ Over-the-air distribution systems:
 
 Devices or Simulator registration
 
-![img](/assets/images/slides/16/image15.png)
-![img](/assets/images/slides/16/image16.png)
-![img](/assets/images/slides/16/image17.png)
-![img](/assets/images/slides/16/image18.png)
-![img](/assets/images/slides/16/image19.png)
-![img](/assets/images/slides/16/image20.png)
+![img](/assets/image15.png)
+![img](/assets/image16.png)
+![img](/assets/image17.png)
+![img](/assets/image18.png)
+![img](/assets/image19.png)
+![img](/assets/image20.png)
 
 --- 
 
@@ -238,8 +238,8 @@ Devices or Simulator registration
 - Enable Services from tiapp.xml
 - In Studio: Select TEST > device or simulator
 
-![img](/assets/images/slides/16/image23.png)
-![img](/assets/images/slides/16/image24.png)
+![img](/assets/image23.png)
+![img](/assets/image24.png)
 
 ---section
 
@@ -253,7 +253,7 @@ Devices or Simulator registration
 - App actions: taps, gestures, test inputs
 - Start a test clip from the Dashboard
 
-![img](/assets/images/slides/16/image25.png)
+![img](/assets/image25.png)
 
 --- 
 
@@ -265,8 +265,8 @@ On the Central tab, select Clips then click on NEW
 A new Clip Editor will open
 Click Record and select Record Mobile app
 
-![img](/assets/images/slides/16/image26.png)
-![img](/assets/images/slides/16/image27.png)
+![img](/assets/image26.png)
+![img](/assets/image27.png)
 
 --- 
 
@@ -285,8 +285,8 @@ Click Record and select Record Mobile app
 - Organize tracks to create full regression tests
 - Select devices per-track or per-clip
 
-![img](/assets/images/slides/16/image28.png)
-![img](/assets/images/slides/16/image29.png)
+![img](/assets/image28.png)
+![img](/assets/image29.png)
 
 --- 
 

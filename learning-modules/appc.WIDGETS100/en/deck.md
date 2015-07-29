@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Custom UI Components
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Custom UI Components
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 ---
 
@@ -22,10 +24,10 @@ Appcelerator Certified Developer (ACD) Training
 
 # Examples
 
-![img](/assets/images/slides/24/image6.png)
-![img](/assets/images/slides/24/image7.png)
-![img](/assets/images/slides/24/image8.png)
-![img](/assets/images/slides/24/image9.png)
+![img](/assets/image6.png)
+![img](/assets/image7.png)
+![img](/assets/image8.png)
+![img](/assets/image9.png)
 
 ---
 
@@ -41,7 +43,7 @@ Appcelerator Certified Developer (ACD) Training
 
 # Creating Custom Components
 
-![img](/assets/images/slides/24/image10.png)
+![img](/assets/image10.png)
 
 - Building blocks: Views, ImageViews, Buttons, Labels
 - Which? The one that's closest to your needs
@@ -137,7 +139,7 @@ module.exports = MyComponent; 
 5. Test by building your mobile project
 6. Distribute by sharing your widget's folder
 
-![img](/assets/images/slides/24/image11.png)
+![img](/assets/image11.png)
 
 ---
 

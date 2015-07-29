@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Distribution
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Distribution
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 --- 
 
