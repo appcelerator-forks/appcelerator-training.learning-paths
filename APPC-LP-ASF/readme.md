@@ -2,7 +2,7 @@
 
 SDK Fundamentals Learning Path
 
-![Screenshot](https://placeholdit.imgix.net/~text?txtsize=30&txt=SDK+Fundamentals&w=480&h=320)
+![Screenshot](https://placeholdit.imgix.net/~text?txtsize=30&txt=SDK%20Fundamentals&w=480&h=320)
 
 - **Course**: SDK Fundamentals
 - **ID**: appcelerator.lp.asf
