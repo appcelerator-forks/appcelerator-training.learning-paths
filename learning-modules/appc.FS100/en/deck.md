@@ -90,11 +90,9 @@ blob = null; (no close() method)
 
 # Scaffolding Example
 
-Persistence app
+![css float:left;width:40%;](assets/image5.png)
 
-![absolute width:300px;left:70%;top:90%;](assets/image5.png)
-
-Download: [http://github.com/appcelerator-training/Persistence](http://github.com/appcelerator-training/Persistence)
+Persistence App: [http://github.com/appcelerator-training/Persistence](http://github.com/appcelerator-training/Persistence)
 
 --- 
 
