@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Alloy Overview
 
-Appcelerator Certified Developer (ACD) Training
+SDK Fundamentals
 
 ---cover
 
 # Alloy Overview
 
-## Appcelerator Certified Developer (ACD) Training
+## SDK Fundamentals
 
 --- 
 
@@ -24,13 +26,15 @@ Appcelerator Certified Developer (ACD) Training
 # Overview & Goals
 
 - MVC separates form and function
-- Speed and simplify development
-- Improves maintainability
+	- Speed and simplify development
+	- Improves maintainability
 - Alloy is Appcelerator's MVC-like framework for Titanium
 
 --- 
 
 # Alloy MVC
+
+![right](../images/image6.png)
 
 - Views
 - Styles
@@ -38,7 +42,7 @@ Appcelerator Certified Developer (ACD) Training
 - Models
 - Extras
 
---- 
+---code
 
 # View - index.xml
 
@@ -54,7 +58,7 @@ The view file declares the structure of the GUI. For example, the file below def
 </Alloy>
 ```
 
---- 
+---code 
 
 # Styles -- `<file>.tss`
 
@@ -81,7 +85,7 @@ For example, the style on the right defines the background color of the window; 
 ```
 
 
---- 
+---code 
 
 # Controllers
 
@@ -415,7 +419,7 @@ $.rowView.url = args.url || '';
 
 --- 
 
-# Dynamically creating Views from Controllers
+# Dynamically Styling Views from Controllers
 
 **app/views/profile.xml**
 
@@ -455,246 +459,16 @@ $.index.open();
 - Create dynamically 6 labels (boxes) and assign click events
 - Change their styles when creating them to have different background colors
 
----section
-
-# PLATFORM HANDLING
-
---- 
-
-# Platform & Form Factor
-
-- App assets
-- Conditional code
-- Markup-based Techniques
-- TSS-based Qualifiers
-- Platform Build-time Folders
-
---- 
-
-# Asset Folders
-
-Conditional Code
-
-- OS_IOS
-- OS_ANDROID
-- OS_MOBILEWEB
-- ENV_DEV
-- ENV_TEST
-- ENV_PRODUCTION
-
-```javascript
-if (ENV_DEV && OS_IOS) {
-     alert("You are running iOS in the simulator");
-}
-```
-
---- 
-
-# Platform and Device Markup
-
-```xml
-<Alloy>
-   <Window class="container">
-         <View formFactor="handheld">
-              <Label>I'm a handheld!</Label>
-         </View>
-
-         <View formFactor="tablet">
-               <Label>I'm a tablet!</Label>
-         </View>
-
-         <View height="50" width="200" bottom="10" backgroundColor="#cdcdcd">
-               <Label class="platformLbl" platform="android" formFactor="tablet">android tablet</Label>
-               <Label class="platformLbl" platform="android" formFactor="handheld">android handset</Label>
-               <Label class="platformLbl" platform="ios" formFactor="tablet">ios tablet</Label>
-               <Label class="platformLbl" platform="ios" formFactor="handheld">ios handset</Label>
-         </View>
-   </Window>
-</Alloy>
-```
-
---- 
-
-# TSS-based Qualifiers
-
-```css
-"#mybutton[platform=android]" : {
-               height:'40dp',
-}
-"#mybutton[platform=ios]" : {
-               height:50,
-}
-"#osLabel[platform=ios formFactor=tablet]": {
-text: "iPad"
-}
-"#osLabel[platform=ios formFactor=handheld]": {
-text: "iPhone"
-}
-```
-
---- 
-
-# Custom Query Styles
-
-- Define a conditional statement, which returns a boolean value, and assign it to a property in the Alloy.Globals namespace.
-- Assign the if attribute to an element in the XML file or in the conditional block of the TSS file to the defined query with the Alloy.Globals namespace.
-
-**Example**
-
-alloy.js
-
-```javascript
-Alloy.Globals.isIos7Plus = (OS_IOS && parseInt(Ti.Platform.version.split(".")[0]) >= 7);
-Alloy.Globals.iPhoneTall = (OS_IOS && Ti.Platform.osname == "iphone" && Ti.Platform.displayCaps.platformHeight == 568);
-```
-
-index.xml
-
-```xml
-<Alloy>
-    <Window>
-	<Label id="title" textid="title"/>
-	<ScrollView id=‘Scrollview’ />
-    </Window>
-</Alloy>
-```
-
-index.tss
-
-```css
-“#title[if=Alloy.Globals.isIos7Plus]" : {
-    top: '25dp', // compensate for the status bar on iOS 7
-},"ScrollView[if=Alloy.Globals.iPhoneTall]" : {
-    height : '500dp'
-}
-```
-
---- 
-
-# Try It
-
-- Assign some elements in your application to only be available for iOS and other only for Android
-- Use different styles for tablets and handhelds
-- Use custom queries to display certain elements when using emulators
-
---- 
-
-# Platform Overrides
-
-Screenshot
-
---- 
-
-# Configurations
-
-Global: ```app/config.json```
-
-```javascript
-{
-   "global": { "foo": 1},
-   "env:development": {},
-   "env:test": {},
-   "env:production": {},
-   "os:ios": { "foo": 2 },
-   "os:android": {},
-   "dependencies": {}
-}
-```
-
-Any controller
-
-```javscript
-alert(Alloy.CFG.foo); // value is 1 or 2 depending on OS
-```
-
---- 
-
-# Themes
-
-- Named collection of styles and assets
-- Applied via setting in the config.json file (can be platform-specific)
-- Theme settings override base styles and assets
-- Overrides are made on an attribute by attribute basis, not whole files
-
-```
-app/
-     assets/
-         appicon.png
-         background.png
-styles/
-     app.tss
-     index.tss
-themes/
-     mytheme/
-         assets/
-            background.png
-         styles/
-            app.tss
-     green/
-    ...
-```
-
---- 
-
-# Using Themes
-
-Define in ```config.json```
-
-```javascript
-{
-    "global": {
-        "theme":"mytheme"
-    },
-    "env:development": {},
-    "env:test": {},
-    "env:production": {},
-    "os:ios": {
-        "theme":"green"
-    },
-    "os:android": {
-        "theme":"blue"
-    },
-    "dependencies": {}
-}
-```
-
-```
-app/
-    assets/
-        appicon.png
-        background.png
-styles/
-    app.tss
-    index.tss
-themes/
-    mytheme/
-        assets/
-            background.png
-        styles/
-            app.tss
-    green/
-    ...
-```
-
---- 
-
-# Alloy vs. “Traditional” / “Legacy”
-
-- It's not all or nothing - `Ti.UI.createView()` and its friends are still valid.
-- API techniques used within the controllers, in helper libraries (network, database, etc.)
-- Alloy is essentially a pre-compiler
-- In the end, Alloy creates traditional code for you — check out the Resources folder!
-
 ---
 
 # Summary
 
 In this lesson, you:
 
-- Identified the role of the Alloy MVC components
-- Implemented a UI control using Views and Styles
-- Enabled interactivity with a Controller
-- Identified options for handling platform differences in Alloy
+- Learned the roles of UX and UI design
+- Explored the components used to create your UI
+- Learned your options for UI layout and component positioning
+- Learned how to set your app's icon & splash screens, and internationalize your app
 
 ---section
 

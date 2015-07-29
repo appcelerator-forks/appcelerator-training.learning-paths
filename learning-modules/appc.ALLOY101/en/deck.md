@@ -1,4 +1,6 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Cross Platform Strategies
 
@@ -8,7 +10,7 @@ SDK Fundamentals
 
 # Cross Platform Strategies
 
-## Appcelerator Certified Developer (ACD) Training
+## SDK Fundamentals
 
 --- 
 
