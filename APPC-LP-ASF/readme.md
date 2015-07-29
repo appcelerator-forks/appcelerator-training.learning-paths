@@ -1,6 +1,6 @@
-# Appcelerator Learning Path
+# SDK Fundamentals Learning Path
 
-SDK Fundamentals Learning Path
+An Appcelerator training learning path that guides you through the learning curve of professional mobile app developing for both iOS and Android platforms.
 
 ![Screenshot](http://placeholdit.imgix.net/~text?txtsize=30&txt=SDK%20Fundamentals&w=480&h=320)
 
@@ -9,12 +9,16 @@ SDK Fundamentals Learning Path
 - **Slug**:  APPC-LP-ASF
 - **Version**: 1.0.0
 
-## Authors: 
+## Audience
+
+## Prerequisites
+
+## Authors
 
  - Ricardo
  - TZ Martin
 
-## Badges: 
+## Badges Earned
 
 ```
 [
