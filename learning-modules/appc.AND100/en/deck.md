@@ -69,7 +69,7 @@ Need to test as widely as possible ... on device
 
 It is necessary to understand and implement these in AppC to provide a truly native experience
 
->![image001.png](../assets/tips.gif) **TIP:** Read the official [Android fundamentals](http://developer.android.com/guide/topics/fundamentals.html) docs.
+>![image001.png](../assets/../assets/tips.gif) **TIP:** Read the official [Android fundamentals](http://developer.android.com/guide/topics/fundamentals.html) docs.
 
 ---
 
@@ -244,7 +244,7 @@ win.open({
 </android> 
 ```
 
->![image001.png](../assets/images/info/info.png) **NOTE:** To get the ActionBar style menu, you just need to build with a current SDK, which is the default.
+>![image001.png](..../assets/info.png) **NOTE:** To get the ActionBar style menu, you just need to build with a current SDK, which is the default.
 
 ---
 

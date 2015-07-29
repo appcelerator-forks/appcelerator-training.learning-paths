@@ -151,7 +151,7 @@ UI Components
   - Android use file name
   - iOS use PostScript name
 
->![image001.png](../assets/images/info/tips.gif) **TIP:**rename file to PostScript name:
+>![image001.png](..../assets/../assets/tips.gif) **TIP:**rename file to PostScript name:
 > 1. Install font
 > 2. Open FontBook & find font
 > 3. Press CMD + i to find PostScript name

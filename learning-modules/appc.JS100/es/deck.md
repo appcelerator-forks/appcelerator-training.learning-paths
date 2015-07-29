@@ -50,7 +50,7 @@ Appcelerator Certified Developer (ACD) Training
 
 ## Variables
 
->![image001.png](/assets/images/info/tips.gif) **TIP:** Always declare using var keyword.
+>![image001.png](../assets/../assets/tips.gif) **TIP:** Always declare using var keyword.
 
 ```javascript
 var x = 1; 
@@ -226,7 +226,7 @@ var saveData = function(data) {
 var success = getAsyncData(saveData); 
 ```
 
->![image001.png](/assets/images/info/tips.gif) **TIP:** Great when ```getAsyncData()``` might take a long time to run (like when accessing the network).
+>![image001.png](../assets/../assets/tips.gif) **TIP:** Great when ```getAsyncData()``` might take a long time to run (like when accessing the network).
 
 ## Objects
 
@@ -622,7 +622,7 @@ myFunc({
 
 ## Performant Coding
 
->![image001.png](/assets/images/info/important.png) **WARNING:** Ti.include() is deprecated.  Use commonJS instead.
+>![image001.png](../assets/important.png) **WARNING:** Ti.include() is deprecated.  Use commonJS instead.
 
 - Defer execution — load modules as needed & don't use Ti.include() 
 - Modules cache code so it's not re-evaluated

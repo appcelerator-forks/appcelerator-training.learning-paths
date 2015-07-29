@@ -108,7 +108,7 @@ Appcelerator Certified Developer (ACD) Training
 - You must use Google APIs version with your apps
 - Current mix at:[http://developer.android.com/](http://developer.android.com/about/dashboards)
 
->![image001.png](/assets/images/info/tips.gif) **TIP:** Studio will not do this; you should do so periodically.
+>![image001.png](../assets/../assets/tips.gif) **TIP:** Studio will not do this; you should do so periodically.
 
 --- 
 
@@ -216,7 +216,7 @@ Appcelerator Certified Developer (ACD) Training
 - Creating a new project and enabling Appcelerator Services
 - Importing a Titanium project and Enabling Appcelerator Services
 
->![image001.png](/assets/images/info/tips.gif) **TIP:** If more than one person is working on the same project and you try to enable Appcelerator Services after it has already been enabled once, the enablement process may freeze. To resolve this issue, copy the tiapp.xml from the user who first enabled Appcelerator Services.
+>![image001.png](../assets/../assets/tips.gif) **TIP:** If more than one person is working on the same project and you try to enable Appcelerator Services after it has already been enabled once, the enablement process may freeze. To resolve this issue, copy the tiapp.xml from the user who first enabled Appcelerator Services.
 
 --- 
 

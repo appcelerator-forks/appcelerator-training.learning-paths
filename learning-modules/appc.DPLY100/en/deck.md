@@ -58,7 +58,7 @@ To deploy to an Android device you must:
 
 ![img](../assets/image7.png)
 
->![image001.png](../assets/tips.gif) **TIP:** To enable developer settings on **Android 4.2+:**
+>![image001.png](../assets/../assets/tips.gif) **TIP:** To enable developer settings on **Android 4.2+:**
 > - Go to the settings menu, and scroll down to "About phone." Tap it.
 > - Scroll down to the bottom again, where you see "Build number." (Your build number may vary.)
 > - Tap it seven (7) times. After the third tap, you'll see a playful dialog that says you're four taps away from being a developer. Keep on tapping, and *poof*, you've got the developer settings back.
@@ -78,7 +78,7 @@ To deploy to an Android device you must:
 
 # 2a. ADB Sometimes Hangs
 
->![image001.png](../assets/tips.gif) **TIP:** You may need to invoke ```adb kill-server``` to force ```adb``` to restart.
+>![image001.png](../assets/../assets/tips.gif) **TIP:** You may need to invoke ```adb kill-server``` to force ```adb``` to restart.
 
 ![img](../assets/image9.png)
 
