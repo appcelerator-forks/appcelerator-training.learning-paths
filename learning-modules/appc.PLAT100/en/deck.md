@@ -30,7 +30,7 @@ Appcelerator SDK Fundamentals
 
 # Appcelerator Platform Overview
 
-![](assets/image6.jpeg)
+![](../assets/image6.jpeg)
 
 --- 
 
@@ -56,37 +56,37 @@ Enterprise Features:
 
 # Dashboard.appcelerator.com
 
-![](assets/image7.png)
+![](../assets/image7.png)
 
 --- 
 
 # Appcelerator Cloud Services
 
-![](assets/image8.png)
+![](../assets/image8.png)
 
 --- 
 
 # Appcelerator Test
 
-![](assets/image9.png)
+![](../assets/image9.png)
 
 --- 
 
 # Appcelerator Performance Management
 
-![](assets/image10.png)
+![](../assets/image10.png)
 
 --- 
 
 # Appcelerator Analytics
 
-![](assets/image11.png)
+![](../assets/image11.png)
 
 --- 
 
 # Appcelerator Executive Insights
 
-![](assets/image12.png)
+![](../assets/image12.png)
 
 --- 
 
@@ -102,7 +102,7 @@ Enterprise Features:
 
 # Powered By Appcelerator
 
-![](assets/apps-1.png)
+![](../assets/apps-1.png)
 
 ---section
 
@@ -112,7 +112,7 @@ Enterprise Features:
 
 # How Titanium SDK Works
 
-![right](assets/image29.png)
+![right](../assets/image29.png)
 
 - You write Javascript
 - Appcelerator maps your JavaScript code to native components
@@ -210,7 +210,7 @@ If you haven’t done this yet:
 
 # Documentation is Your Friend
 
-![](assets/image32.png)
+![](../assets/image32.png)
 
 [https://docs.appcelerator.com](https://docs.appcelerator.com)
 
@@ -218,17 +218,17 @@ If you haven’t done this yet:
 
 # Documentation - More Details
 
-![](assets/image33.png)
+![](../assets/image33.png)
 
 --- 
 
 # Example Code
 
-![](assets/image34.png)
+![](../assets/image34.png)
 
 [https://github.com/appcelerator](https://github.com/appcelerator)
 
-![](assets/image35.png)
+![](../assets/image35.png)
 
 [https://github.com/appcelerator-developer-relations](https://github.com/appcelerator-developer-relations)
 
@@ -236,9 +236,9 @@ If you haven’t done this yet:
 
 # Getting Help
 
-![left](assets/image36.png)
+![left](../assets/image36.png)
 
-![right](assets/image37.png)
+![right](../assets/image37.png)
 
 - [https://support.appcelerator.com](https://support.appcelerator.com)
 - [https://developer.appcelerator.com/questions/newest](https://developer.appcelerator.com/questions/newest)

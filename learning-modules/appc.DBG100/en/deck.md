@@ -1,8 +1,10 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Debugging
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
@@ -27,7 +29,7 @@ Appcelerator Certified Developer (ACD) Training
 
 # Debugging
 
-![img](/assets/images/slides/15/image6.png)
+![img](../assets/image6.png)
 
 - Breakpoints, stepping through code, conditional breakpoints
 - Variables - examining variable state and affecting run-time variable values
@@ -36,8 +38,8 @@ Appcelerator Certified Developer (ACD) Training
 
 # Setting Breakpoints
 
-![img](/assets/images/slides/15/image7.png)
-![img](/assets/images/slides/15/image8.png)
+![img](../assets/image7.png)
+![img](../assets/image8.png)
 
 - Margin-click method:
   - Double-click margin
@@ -50,7 +52,7 @@ Debugger statement
 
 # Step-through Debugging
 
-![img](/assets/images/slides/15/image9.png)
+![img](../assets/image9.png)
 
 - Step Into, Over, & Return buttons
 - Resume & Terminate buttons
@@ -85,7 +87,7 @@ Debugging AlloyHunter
 
 # Using LiveView
 
-![img](/assets/images/slides/15/image12.png)
+![img](../assets/image12.png)
 
 - Appcelerator Studio allows you to quickly preview UI changes in Android and iOS using LiveView
 - Enable LiveView in Explorer using the icon, then Run LiveView from the Launch Mode drop-down
@@ -94,7 +96,7 @@ Debugging AlloyHunter
 
 # Trigger LiveView Updates
 
-![img](/assets/images/slides/15/image13.png)
+![img](../assets/image13.png)
 
 - Once launched LiveView waits for you to commit changes to your project before updating
 - Trigger update by modifying or adding files in the Resources directory
@@ -106,7 +108,7 @@ Debugging AlloyHunter
 
 If there are coding errors, LiveView will display a message in the simulator, device, and Console view
 
-![img](/assets/images/slides/15/image14.png)
+![img](../assets/image14.png)
 
 ---section 
 
@@ -116,7 +118,7 @@ If there are coding errors, LiveView will display a message in the simulator, de
 
 # Using Code Analyzer
 
-![img](/assets/images/slides/15/image15.png)
+![img](../assets/image15.png)
 
 - Code Analyzer will analyze your code to identify errors and areas for improvement
 - Works with both Alloy and traditional apps
@@ -132,7 +134,7 @@ Several ways to access results:
 - In project Explorer, right click, Code Analysis > View current Results shows last run
 - Save results by right-clicking on editor and select Export.  Can select format and destination
 
-![img](/assets/images/slides/15/image16.png)
+![img](../assets/image16.png)
 
 --- 
 
@@ -142,7 +144,7 @@ Several ways to access results:
 - Hovering over icons will provide more information
 - Can also see aggregated list in the Problems view, under Window > Show View > Other
 
-![img](/assets/images/slides/15/image17.png)
+![img](../assets/image17.png)
 
 --- 
 
@@ -150,9 +152,9 @@ Several ways to access results:
 
 HTML page will display with different tabs of results, including Summary, API Usage Finder, Project Score, Analysis Coverage, Platform Validator, and API Deprecation Finder
 
-![img](/assets/images/slides/15/image18.png)
+![img](../assets/image18.png)
 
-![img](/assets/images/slides/15/image19.png)
+![img](../assets/image19.png)
 
 ---section 
 
@@ -168,7 +170,7 @@ HTML page will display with different tabs of results, including Summary, API Us
 
 # Using the Profiler View
 
-![img](/assets/images/slides/15/image20.png)
+![img](../assets/image20.png)
 
 - Profile View is used to control the profiler, selecting active applications and starting and stop recordings
 - Performance Profile View displays data from the profiling section, displaying by call hierarchy or hotspots
@@ -179,7 +181,7 @@ HTML page will display with different tabs of results, including Summary, API Us
 - Capture a snapshot by clicking Capture Performance Profile button, complete you interaction, then click the Capture Performance Profile button to stop
 - Snapshots may be saved
 
-![img](/assets/images/slides/15/image23.png)
+![img](../assets/image23.png)
 
 # Using Code Profiler Results
 
@@ -188,7 +190,7 @@ Call Hierarchy – Displays method calls in hierarchical form, to make it easy t
 Hotspots – Shows all methods used, and cumulative time for all instances of each method used
 Double clicking a row will bring up relevant code
 
-![img](/assets/images/slides/15/image24.png)
+![img](../assets/image24.png)
 
 # Code Profiler Tips
 
@@ -203,13 +205,13 @@ Double clicking a row will bring up relevant code
 
 # Appcelerator Test
 
-![img](/assets/images/slides/15/image25.png)
+![img](../assets/image25.png)
 
 --- 
 
 # Appcelerator Performance Management
 
-![img](/assets/images/slides/15/image26.png)
+![img](../assets/image26.png)
 
 --- 
 
@@ -228,7 +230,7 @@ Double clicking a row will bring up relevant code
 
 # Android SDK Files
 
-![img](/assets/images/slides/15/image27.png)
+![img](../assets/image27.png)
 
 - Install by unzipping
 - Directories:
@@ -241,7 +243,7 @@ Double clicking a row will bring up relevant code
 
 # Android Platforms
 
-![img](/assets/images/slides/15/image28.png)
+![img](../assets/image28.png)
 
 - ```android``` script
 - SDK v8 required
@@ -252,19 +254,19 @@ Double clicking a row will bring up relevant code
 
 # Android logging
 
-![img](/assets/images/slides/15/image29.png)
+![img](../assets/image29.png)
 
 --- 
 
 # Android Monitor
 
-![img](/assets/images/slides/15/image30.png)
+![img](../assets/image30.png)
 
 --- 
 
 # Dalvik Debug Monitor
 
-![img](/assets/images/slides/15/image31.png)
+![img](../assets/image31.png)
 
 ---section 
 
@@ -274,31 +276,31 @@ Double clicking a row will bring up relevant code
 
 # What's in the box?
 
-![img](/assets/images/slides/15/image32.png)
+![img](../assets/image32.png)
 
 --- 
 
 # Xcode Device Logs
 
-![img](/assets/images/slides/15/image33.png)
+![img](../assets/image33.png)
 
 --- 
 
 # OS X Console
 
-![img](/assets/images/slides/15/image34.png)
+![img](../assets/image34.png)
 
 --- 
 
 # Instruments
 
-![img](/assets/images/slides/15/image35.png)
+![img](../assets/image35.png)
 
 --- 
 
 # Network Link Conditioner
 
-![img](/assets/images/slides/15/image36.png)
+![img](../assets/image36.png)
 
 - In Xcode, choose Xcode > Open Developer Tool > More Developer Tools
 - Log into the Apple Developer Center
@@ -317,7 +319,7 @@ Double clicking a row will bring up relevant code
 
 [http://people.apache.org/~pmuellr/weinre-docs/latest/](http://people.apache.org/~pmuellr/weinre-docs/latest/)
 
-![img](/assets/images/slides/15/image37.png)
+![img](../assets/image37.png)
 
 ---section 
 

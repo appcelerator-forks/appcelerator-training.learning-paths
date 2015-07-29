@@ -29,7 +29,7 @@ Appcelerator SDK Fundamentals
 
 Location APIs can be used for everything from device positioning to augmented reality applications. Taking location into account is mobile's killer feature.
 
-![img](/assets/image6.png)
+![img](../assets/image6.png)
 
 --- 
 
@@ -44,7 +44,7 @@ Location APIs can be used for everything from device positioning to augmented re
 
 # iOS Geolocation
 
-![img](/assets/image7.png)
+![img](../assets/image7.png)
 
 - Requires ```NSLocationAlwaysUsageDescription``` or ```NSLocationWhenInUseUsageDescription``` key
 - Edit ```tiapp.xml``` ```ios/plist/dict```
@@ -57,7 +57,7 @@ Location APIs can be used for everything from device positioning to augmented re
 
 # iOS Geolocation –iOS 8
 
-![img](/assets/image8.png)
+![img](../assets/image8.png)
 
 - Must ```Ti.Geolocation.requestAuthorization()`````
 - ```Ti.Geolocation.AUTHORIZATION_ALWAYS```

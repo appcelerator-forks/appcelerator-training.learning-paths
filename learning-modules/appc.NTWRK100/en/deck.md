@@ -27,7 +27,7 @@ Appcelerator SDK Fundamentals
 
 # Appcelerator Modules
 
-![img](/assets/image6.png)
+![img](../assets/image6.png)
 
 - Add 'missing' features
 - Narrow use cases
@@ -52,7 +52,7 @@ Appcelerator SDK Fundamentals
 
 # Built-in Modules
 
-![img](/assets/image7.png)
+![img](../assets/image7.png)
 
 --- 
 
@@ -60,19 +60,19 @@ Appcelerator SDK Fundamentals
 
 Available at [http://github.com/appcelerator/titanium_modules](http://github.com/appcelerator/titanium_modules)
 
-![img](/assets/image8.png)
+![img](../assets/image8.png)
 
 --- 
 
 # Appcelerator Marketplace
 
-![img](/assets/image9.png)
+![img](../assets/image9.png)
 
 --- 
 
 # PayPal (iOS and Android)
 
-![img](/assets/image11.png)
+![img](../assets/image11.png)
 
 - Mobile Payments Library
 - Requires PayPal merchant account
@@ -99,8 +99,8 @@ Available at [http://github.com/appcelerator/titanium_modules](http://github.com
 
 # Community Contributions
 
-![img](/assets/image12.png)
-![img](/assets/image13.png)
+![img](../assets/image12.png)
+![img](../assets/image13.png)
 
 ---section 
 
@@ -110,7 +110,7 @@ Available at [http://github.com/appcelerator/titanium_modules](http://github.com
 
 # Installing a Module
 
-![img](/assets/image14.png)
+![img](../assets/image14.png)
 
 - Download zip file, or copy URL to zip file
 - Choose Help, Install Mobile Module
@@ -132,7 +132,7 @@ Available at [http://github.com/appcelerator/titanium_modules](http://github.com
 - Download zip file
 - Unzip to ```%TITANIUM_INSTALL_DIR%/modules``` directory
 
-![img](/assets/image15.png)
+![img](../assets/image15.png)
 
 ---section 
 
@@ -142,13 +142,13 @@ Available at [http://github.com/appcelerator/titanium_modules](http://github.com
 
 # Loading a Module
 
-![img](/assets/image16.png)
+![img](../assets/image16.png)
 
 --- 
 
 # View-based Modules
 
-![img](/assets/image17.png)
+![img](../assets/image17.png)
 
 --- 
 
@@ -157,7 +157,7 @@ Available at [http://github.com/appcelerator/titanium_modules](http://github.com
 - Must ```require()``` module in your controller to use its functions
 - (Every marketplace module comes with example and doc)
 
-![img](/assets/image18.png)
+![img](../assets/image18.png)
 
 --- 
 

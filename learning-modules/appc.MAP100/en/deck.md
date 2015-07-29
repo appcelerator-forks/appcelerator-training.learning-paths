@@ -24,8 +24,8 @@ Appcelerator SDK Fundamentals
 
 # Native Map Kits
 
-![img](/assets/image9.png)
-![img](/assets/image10.png)
+![img](../assets/image9.png)
+![img](../assets/image10.png)
 
 - Native maps provide zooming, scrolling, and different display types
 - Points of interest are added with Annotations (pins)
@@ -36,7 +36,7 @@ Appcelerator SDK Fundamentals
 
 # Annotations
 
-![img](/assets/image11.png)
+![img](../assets/image11.png)
 
 - Annotations can be added on or after creation
 - Can customize:
@@ -60,7 +60,7 @@ Appcelerator SDK Fundamentals
 
 # Android Mapping
 
-![img](/assets/image12.png)
+![img](../assets/image12.png)
 
 - Version 2 Google Maps API key required  unless you happen to have an API v1 key already
 - Must use API key to see tiles on device / in production
@@ -80,7 +80,7 @@ Appcelerator SDK Fundamentals
 --- 
 
 # Maps Example
-![img](/assets/image13.png)
+![img](../assets/image13.png)
 
 --- 
 
@@ -190,13 +190,13 @@ turn on Google Maps Android API v2
 - Paste your SHA-1 fingerprint, a semicolon, then your app's App ID
 - Save the resulting "Key for Android Apps (with certificates)"
 
-![img](/assets/image14.png)
+![img](../assets/image14.png)
 
 --- 
 
 # Update tiapp.xml
 
-![img](/assets/image15.png)
+![img](../assets/image15.png)
 
 - Download module from Marketplace, and install
 - Copy sample XML from the docs into your ```tiapp.xml```

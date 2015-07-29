@@ -56,7 +56,7 @@ Appcelerator SDK Fundamentals
 
 # Background Scaling
 
-![img](/assets/images/slides/10/image6.png)
+![img](../assets/image6.png)
 
 - Background stretched/squeezed to fit
 - On iOS, left/right cap not stretched.. or top/bottom cap
@@ -211,7 +211,7 @@ $.galleryButton.addEventListener('click', function() {
 
 # Ti.Media
 
-![img](/assets/images/slides/10/image7.png)
+![img](../assets/image7.png)
 
 - Media constants
 - Helper properties (e.g. isCameraSupport)

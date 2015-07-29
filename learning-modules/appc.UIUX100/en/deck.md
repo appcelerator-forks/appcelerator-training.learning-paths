@@ -63,7 +63,7 @@ Appcelerator SDK Fundamentals
 </Alloy> 
 ```
 
-![img](/assets/images/slides/6/image6.png)
+![img](../assets/image6.png)
 
 --- 
 
@@ -86,20 +86,20 @@ Appcelerator SDK Fundamentals
 
 ```
 
-![img](/assets/images/slides/6/image7.png)
+![img](../assets/image7.png)
 
 --- 
 
 #	 iOS 7 UI Components
 
-![img](/assets/images/slides/6/image9.png)
+![img](../assets/image9.png)
 
 --- 
 
 # Android 4.x User Interface Components
 
-![img](/assets/images/slides/6/image11.png)
-![img](/assets/images/slides/6/image12.png)
+![img](../assets/image11.png)
+![img](../assets/image12.png)
 
 ---
 
@@ -127,7 +127,7 @@ todo
 - bottom and right
 - center
 
-![img](/assets/images/slides/6/image15.png)
+![img](../assets/image15.png)
 
 ```xml
 <View id=“red” />
@@ -194,7 +194,7 @@ Default units:
 - iPhone 6 Plus - 414 x 736 points (16:9)
 - iPad 1/2/3 - 1024 x 768 points (4:3)
 
-![img](/assets/images/slides/6/image16.png)
+![img](../assets/image16.png)
 
 - Android sizes vary (examples):
 - HVGA = 320 by 480 px (4:3)
@@ -209,13 +209,13 @@ Default units:
 - Vertical
 - Horizontal
 
-![img](/assets/images/slides/6/image17.png)
+![img](../assets/image17.png)
 
 --- 
 
 # Absolute Layout
 
-![img](/assets/images/slides/6/image18.png)
+![img](../assets/image18.png)
 
 ```xml
 <Button id=“SaveBtn”>Save my Information</Button>
@@ -233,7 +233,7 @@ Default units:
 
 # Vertical Layout
 
-![img](/assets/images/slides/6/image19.png)
+![img](../assets/image19.png)
 
 ```javascript
 “Window”:{
@@ -339,9 +339,9 @@ $.textField.addEventListener('change', function(e) {
 
 # Events Documentation
 
-![img](/assets/images/slides/6/image20.png)
+![img](../assets/image20.png)
 
-![img](/assets/images/slides/6/image21.png)
+![img](../assets/image21.png)
 
 --- 
 
@@ -433,9 +433,9 @@ Simple solution: place a single ```appicon.png``` in ```app/assets```, or ```ap
 - **Option 2**: Put size/resolution-specific versions of default.png in res directories*No tablet sizes supported
 - **Option 3**: Use a 9-patch image*Use android 9patch tool
 
-![img](/assets/images/slides/6/image22.png)
+![img](../assets/image22.png)
 
-![img](/assets/images/slides/6/image23.png)
+![img](../assets/image23.png)
 
 --- 
 
@@ -446,11 +446,11 @@ Simple solution: place a single ```appicon.png``` in ```app/assets```, or ```ap
 - Localizaed Images and file resources
 - Test by changing your settings to use a different language
 
-![img](/assets/images/slides/6/image24.png)
+![img](../assets/image24.png)
 
-![img](/assets/images/slides/6/image25.png)
+![img](../assets/image25.png)
 
-![img](/assets/images/slides/6/image26.png)
+![img](../assets/image26.png)
 
 --- 
 

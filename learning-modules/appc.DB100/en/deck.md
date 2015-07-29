@@ -28,7 +28,7 @@ Appcelerator SDK Fundamentals
 --- 
 
 # The XMLHTTPRequest Object
-![img](/assets/image6.png)
+![img](../assets/image6.png)
 
 - In the web browser, Ajax requests rely on the XMLHTTPRequest object provided by the browser
 - In Titanium the app is the client, everything else should be the same

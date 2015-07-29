@@ -58,23 +58,23 @@ Ti.UI.KEYBOARD_
 
 DEFAULT
 
-![img](/assets/image6.png)
+![img](../assets/image6.png)
 
 NUMBERS_PUNCTUATION
 
-![img](/assets/image7.png)
+![img](../assets/image7.png)
 
 URL
 
-![img](/assets/image8.png)
+![img](../assets/image8.png)
 
 NUMBER_PAD
 
-![img](/assets/image9.png)
+![img](../assets/image9.png)
 
 PHONE_PAD
 
-![img](/assets/image10.png)
+![img](../assets/image10.png)
 
 - ASCII
 - DECIMAL_PAD
@@ -85,13 +85,13 @@ PHONE_PAD
 
 # Return Key Options
 
-![img](/assets/image11.png)
+![img](../assets/image11.png)
 
 ---
 
 # Keyboard Toolbars
 
-![img](/assets/image12.png)
+![img](../assets/image12.png)
 
 ```xml
 <Alloy>
@@ -159,8 +159,8 @@ $.win.windowSoftInputMode = Ti.UI.Android.SOFT_INPUT_ADJUST_PAN;
 
 # Alert Dialog
 
-![img](/assets/image13.png)
-![img](/assets/image13a.png)
+![img](../assets/image13.png)
+![img](../assets/image13a.png)
 
 ```xml
 <AlertDialog id='alert'/> 
@@ -191,13 +191,13 @@ $.alert.addEventListener('click', function(e)
 $.alert.show();
 ```
 
-![img](/assets/image14.png)
+![img](../assets/image14.png)
 
 ---
 
 # UI: Switch
 
-![img](/assets/image15.png)
+![img](../assets/image15.png)
 
 - Presents two mutually exclusive choices
 - On iOS, user can turn on indicators: | (on) and 0 (off)
@@ -227,9 +227,9 @@ $.theSwitch.addEventListener('change', function(e){
 
 # UI: Slider
 
-![img](/assets/image16.png)
-![img](/assets/image17.png)
-![img](/assets/image18.png)
+![img](../assets/image16.png)
+![img](../assets/image17.png)
+![img](../assets/image18.png)
 
 
 ```xml
@@ -251,8 +251,8 @@ $.theSwitch.addEventListener('change', function(e){
 
 # Picker
 
-![img](/assets/image19.png)
-![img](/assets/image20.png)
+![img](../assets/image19.png)
+![img](../assets/image20.png)
 
 ```xml
 <Alloy> 
@@ -295,8 +295,8 @@ $.theSwitch.addEventListener('change', function(e){
 
 # Date Picker
 
-![img](/assets/image21.png)
-![img](/assets/image22.png)
+![img](../assets/image21.png)
+![img](../assets/image22.png)
 
 ```xml
 <Alloy> 
@@ -349,7 +349,7 @@ $.dialog.show();
 - Add shadows to Labels are cross-platform
 - Add Shadows to buttons only on Android
 
-![img](/assets/image23.png)
+![img](../assets/image23.png)
 
 ```xml
 <Alloy>

@@ -36,7 +36,7 @@ Appcelerator SDK Fundamentals
 
 # Appcelerator Performance Dashboard
 
-![img](/assets/image6.png)
+![img](../assets/image6.png)
 
 ---
 
@@ -44,7 +44,7 @@ Appcelerator SDK Fundamentals
 
 Live Stats – updates every 15 seconds
 
-![img](/assets/image7.png)
+![img](../assets/image7.png)
 
 ---
 
@@ -52,21 +52,21 @@ Live Stats – updates every 15 seconds
 
 **Crash Reports & Error Handling**
 
-![img](/assets/image8.png)
+![img](../assets/image8.png)
 
 - Ordered by most recent (sortable)
 - Can filter by status (known, unresolved, resolved)
 - Can filter by time (last 24 hours, 1 week, 2 weeks, 1 month)
 - Can filter by app version number
 
-![img](/assets/image9.png)
+![img](../assets/image9.png)
 
 ---
 
 # Troubleshooting
 
-![img](/assets/image10.png)
-![img](/assets/image11.png)
+![img](../assets/image10.png)
+![img](../assets/image11.png)
 
 - Crash Reports & Exception Handling
   - Click on error for detailed report (stacktrace, versions, diagnostics, breadcrumbs, users)
@@ -108,7 +108,7 @@ Computation is usually not the bottleneck, RAM is
 |iPad ~30-50 MB|ICS - 24 MB|
 ||ICS w/ "large heap" - 128 MB|
 
->![image001.png](/assets/images/info/info.png) **NOTE:** Apple does not publish information about their app termination threshold.
+>![image001.png](../assets/images/info/info.png) **NOTE:** Apple does not publish information about their app termination threshold.
 
 ---
 
@@ -299,7 +299,7 @@ References:
 - ... but make as few requests as possible
 - Use JSON as transportset up server-side proxy for SOAP/XML services
 
-![img](/assets/image14.png)
+![img](../assets/image14.png)
 
 ---
 
@@ -314,7 +314,7 @@ References:
 
 # Battery Optimization
 
-![img](/assets/image15.png)
+![img](../assets/image15.png)
 
 - Critical on Android, important on iOS too
 - Network and geolocation most critical concerns
@@ -338,7 +338,7 @@ More info at:
 
 # Viewing Inefficiencies in iOS Simulator
 
-![img](/assets/image16.png)
+![img](../assets/image16.png)
 
 - Debug > Color Blended Layersshows transparent/blended layers
 - Debug > Color Misaligned ImagesMagenta means subpixel misalignments, yellow means stretched/scaled images

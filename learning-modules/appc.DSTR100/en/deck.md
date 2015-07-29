@@ -66,31 +66,31 @@ tool-api-level no longer supported or needed
 
 # Generate Key Pair and Certificate
 
-![img](/assets/images/slides/17/image6.png)
+![img](../assets/image6.png)
 
 --- 
 
 # Verify Keystore
 
-![img](/assets/images/slides/17/image7.png)
+![img](../assets/image7.png)
 
 --- 
 
 # Sign Your Application
 
-![img](/assets/images/slides/17/image8.png)
+![img](../assets/image8.png)
 
 --- 
 
 # Verify Signed App
 
-![img](/assets/images/slides/17/image9.png)
+![img](../assets/image9.png)
 
 --- 
 
 # Uploading and publishing
 
-![img](/assets/images/slides/17/image10.png)
+![img](../assets/image10.png)
 
 - Two screenshots
 - 512x512 px icon
@@ -133,25 +133,25 @@ See [http://goo.gl/eXZ0t](http://goo.gl/eXZ0t) for complete list
 
 # Certificate
 
-![img](/assets/images/slides/17/image11.png)
+![img](../assets/image11.png)
 
 --- 
 
 # Distribution Provisioning Profile
 
-![img](/assets/images/slides/17/image12.png)
+![img](../assets/image12.png)
 
 --- 
 
 # Build for Distribution
 
-![img](/assets/images/slides/17/image13.png)
+![img](../assets/image13.png)
 
 --- 
 
 # iTunes Connect
 
-![img](/assets/images/slides/17/image14.png)
+![img](../assets/image14.png)
 
 - Portal for app sales management
 - Sales statistics
@@ -162,7 +162,7 @@ See [http://goo.gl/eXZ0t](http://goo.gl/eXZ0t) for complete list
 
 # Creating an app in iTunes Connect
 
-![img](/assets/images/slides/17/image15.png)
+![img](../assets/image15.png)
 
 - 1 screen shot per device per language
 - 1024x1024 px icon
@@ -176,7 +176,7 @@ See [http://goo.gl/eXZ0t](http://goo.gl/eXZ0t) for complete list
 
 # Validating and Uploading
 
-![img](/assets/images/slides/17/image16.png)
+![img](../assets/image16.png)
 
 --- 
 

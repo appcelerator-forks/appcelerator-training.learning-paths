@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # Filesystem
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # Filesystem
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 --- 
 
@@ -62,7 +64,7 @@ Appcelerator Certified Developer (ACD) Training
 
 # Filesystem Example
 
->![image001.png](/assets/images/info/important.png) **WARNING:** In iOS 8, nativePath is relative to the the app container GUID, not the app bundle. It’s no longer absolute! 
+>![image001.png](../assets/important.png) **WARNING:** In iOS 8, nativePath is relative to the the app container GUID, not the app bundle. It’s no longer absolute! 
 
 ```javascript
 var file = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "myfile.txt"); 

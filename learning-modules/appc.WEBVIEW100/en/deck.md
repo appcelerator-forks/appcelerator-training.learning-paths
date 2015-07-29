@@ -128,8 +128,8 @@ win.add(webview);
 
 # ACS Kitchen Sink
 
-![img](/assets/image5.png)
-![img](/assets/image6.png)
+![img](../assets/image5.png)
+![img](../assets/image6.png)
 
 ```xml
 <input type='text' placeholder="Full name"/> 
@@ -180,10 +180,10 @@ By default, Appcelerator processes all JavaScript in the resources directory on 
 
 # Integrating Web Tools
 
-![img](/assets/image8.png)
-![img](/assets/image9.png)
-![img](/assets/image10.png)
-![img](/assets/image11.png)
+![img](../assets/image8.png)
+![img](../assets/image9.png)
+![img](../assets/image10.png)
+![img](../assets/image11.png)
 
 - CSS 3D, Canvas, PDF.js, etc.
 - Canvas not supported on all Android < ~4.0.3
@@ -193,8 +193,8 @@ By default, Appcelerator processes all JavaScript in the resources directory on 
 
 # SVG Transformations
 
-![img](/assets/image12.png)
-![img](/assets/image13.png)
+![img](../assets/image12.png)
+![img](../assets/image13.png)
 
 - Transform images
 - 2D/3D animations

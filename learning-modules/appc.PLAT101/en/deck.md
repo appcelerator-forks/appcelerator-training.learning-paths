@@ -58,7 +58,7 @@ Appcelerator SDK Fundamentals
 
 All Platform services now can be used with legacy applications developed with a native SDK (iOS/Android)
 
-![img](/assets/image20.png)
+![img](../assets/image20.png)
 
 --- 
 
@@ -68,9 +68,9 @@ Provide a name, platform, a category
 Appcelerator services will be enabled
 Download different SDKs for each service you want to integrate
 
-![img](/assets/image21.png)
-![img](/assets/image22.png)
-![img](/assets/image23.png)
+![img](../assets/image21.png)
+![img](../assets/image22.png)
+![img](../assets/image23.png)
 
 --- 
 
@@ -91,7 +91,7 @@ Download different SDKs for each service you want to integrate
 - User can select a filter options
 - The data in the dashboard page will be updated based on set filters
 
-![img](/assets/image24.png)
+![img](../assets/image24.png)
 
 --- 
 
@@ -102,7 +102,7 @@ Download different SDKs for each service you want to integrate
 1. Export Chart Data to export the data in the chart
 2. Export Table Data to export the data in the table
 
-![img](/assets/image25.png)
+![img](../assets/image25.png)
 
 --- 
 

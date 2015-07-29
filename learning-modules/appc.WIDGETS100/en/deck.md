@@ -24,10 +24,10 @@ Appcelerator SDK Fundamentals
 
 # Examples
 
-![img](/assets/image6.png)
-![img](/assets/image7.png)
-![img](/assets/image8.png)
-![img](/assets/image9.png)
+![img](../assets/image6.png)
+![img](../assets/image7.png)
+![img](../assets/image8.png)
+![img](../assets/image9.png)
 
 ---
 
@@ -43,7 +43,7 @@ Appcelerator SDK Fundamentals
 
 # Creating Custom Components
 
-![img](/assets/image10.png)
+![img](../assets/image10.png)
 
 - Building blocks: Views, ImageViews, Buttons, Labels
 - Which? The one that's closest to your needs
@@ -139,7 +139,7 @@ module.exports = MyComponent; 
 5. Test by building your mobile project
 6. Distribute by sharing your widget's folder
 
-![img](/assets/image11.png)
+![img](../assets/image11.png)
 
 ---
 

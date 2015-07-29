@@ -26,7 +26,7 @@ Appcelerator SDK Fundamentals
 
 # Orientation Support
 
-![img](/assets/image6.png)
+![img](../assets/image6.png)
 
 - Fixing orientation for the whole app
 - Setting supported orientation for each window
@@ -86,7 +86,7 @@ Appcelerator SDK Fundamentals
 
 # Locking Orientation on Android
 
->![image001.png](/assets/images/info/tips.gif) **TIP:** By default, Android supports all orientations.
+>![image001.png](../assets/images/info/tips.gif) **TIP:** By default, Android supports all orientations.
 
 - Copy `<application>` node & all its `<activity>` tags from `build/android/AndroidManifest.xml`
 - Paste into `tiapp.xml`, between `<android><manifest></manifest></android>` tags
@@ -191,7 +191,7 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 
 # Gestures
 
-![img](/assets/image9.png)
+![img](../assets/image9.png)
 
 - Shake
 - Swipe
@@ -203,7 +203,7 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 
 # Shake
 
-![img](/assets/image10.png)
+![img](../assets/image10.png)
 
 ```javascript
 
@@ -233,7 +233,7 @@ Add an event listener for shake
 
 # Swipes
 
-![img](/assets/image11.png)
+![img](../assets/image11.png)
 
 - Built-in event on most Ti.UI elements
 - Event object properties:
@@ -266,7 +266,7 @@ Add an event listener for shake
 
 # Pinch
 
-![img](/assets/image12.png)
+![img](../assets/image12.png)
 
 iOS & Android
 Zoom only (no rotation)

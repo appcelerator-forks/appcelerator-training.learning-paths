@@ -31,9 +31,9 @@ Appcelerator SDK Fundamentals
 
 # Basics of UX
 
-![img](/assets/image6.png)
-![img](/assets/image7.png)
-![img](/assets/image8.png)
+![img](../assets/image6.png)
+![img](../assets/image7.png)
+![img](../assets/image8.png)
 
 --- 
 
@@ -45,7 +45,7 @@ Can you answer the following:
 - Who are my key users?
 - What are their needs?
 
-![img](/assets/image9.png)
+![img](../assets/image9.png)
 
 --- 
 
@@ -98,7 +98,7 @@ Remove your personal opinion! (You're not the target consumer)
 
 # Sketch It!
 
-![img](/assets/image12.png)
+![img](../assets/image12.png)
 
 --- 
 
@@ -144,14 +144,14 @@ UI Components
 
 # Custom Fonts
 
-![img](/assets/image12.png)
+![img](../assets/image12.png)
 
 - Put in assets/fonts or assets/platform/fonts
 - For fontFamily (default):
   - Android use file name
   - iOS use PostScript name
 
->![image001.png](/assets/images/info/tips.gif) **TIP:**rename file to PostScript name:
+>![image001.png](../assets/images/info/tips.gif) **TIP:**rename file to PostScript name:
 > 1. Install font
 > 2. Open FontBook & find font
 > 3. Press CMD + i to find PostScript name
@@ -164,7 +164,7 @@ UI Components
 
 # Accelerometer
 
-![img](/assets/image13.png)
+![img](../assets/image13.png)
 
 - Directional Information
 - Use in conjunction with Compass
@@ -183,14 +183,14 @@ UI Components
 
 # Orientation
 
-![img](/assets/image13.png)
-![img](/assets/image14.png)
+![img](../assets/image13.png)
+![img](../assets/image14.png)
 
 --- 
 
 # Microphone & Audio
 
-![img](/assets/image15.png)
+![img](../assets/image15.png)
 
 - Input & Output
 - Guide a user with instruction
@@ -201,7 +201,7 @@ UI Components
 
 # Camera & Video
 
-![img](/assets/image16.png)
+![img](../assets/image16.png)
 
 - Record & Edit
 - Instant Result & Gratification
@@ -212,7 +212,7 @@ UI Components
 
 # Loading Indicators
 
-![img](/assets/image17.png)
+![img](../assets/image17.png)
 
 - Provide feedback to user
 - Provide information
@@ -222,7 +222,7 @@ UI Components
 
 # Feedback
 
-![img](/assets/image18.png)
+![img](../assets/image18.png)
 
 - Alerts are ok
 - Action screens are good
@@ -246,8 +246,8 @@ UI Components
 
 # UX Design Tools
 
-![img](/assets/image19.png)
-![img](/assets/image20.png)
+![img](../assets/image19.png)
+![img](../assets/image20.png)
 
 - Paper & pencil!
 - Balsamiq
@@ -273,8 +273,8 @@ Start with a template or follow Apple/Android human interface guidelines
 - iOS: Reflector, AirServer, LiveView
 - Android: Miracast, ChromeCast, Mirror, Droid@Screen 
 
-![img](/assets/image21.png)
-![img](/assets/image22.png)
+![img](../assets/image21.png)
+![img](../assets/image22.png)
 
 ---section 
 

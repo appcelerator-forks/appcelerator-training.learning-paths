@@ -33,7 +33,7 @@ Appcelerator SDK Fundamentals
 
 # Appcelerator Studio
 
-![Studio](assets/image6.png)
+![Studio](../assets/image6.png)
 
 --- 
 
@@ -71,8 +71,8 @@ Appcelerator SDK Fundamentals
   - Click “Get started”
 - Make sure to set a default Android SDK... and choose a Google APIs version!
 
-![Setup](assets/image8.png)
-![Setup](assets/image9.png)
+![Setup](../assets/image8.png)
+![Setup](../assets/image9.png)
 
 --- 
 
@@ -101,8 +101,8 @@ Appcelerator SDK Fundamentals
 
 # Android SDK Files
 
-![left](assets/image10.png)
-![right](assets/image11.png)
+![left](../assets/image10.png)
+![right](../assets/image11.png)
 
 - **Studio will download for you**
 - Use native tool / run android SDK manager
@@ -112,7 +112,7 @@ Appcelerator SDK Fundamentals
 
 # Android Platforms
 
->![](assets/tips.gif) **TIP:** Studio will not do this; you should do so periodically.
+>![](../assets/tips.gif) **TIP:** Studio will not do this; you should do so periodically.
 
 - ```android``` script
 - Download SDK Platform and Google APIs
@@ -139,7 +139,7 @@ Appcelerator SDK Fundamentals
 
 # iOS: Xcode
 
-![left](assets/image13.png)
+![left](../assets/image13.png)
 
 - Not much setup
 - Download from Apple App Store and install
@@ -148,8 +148,8 @@ Appcelerator SDK Fundamentals
 
 # iOS: Handy Tools
 
-![left](assets/image15.png)
-![right](assets/image16.png)
+![left](../assets/image15.png)
+![right](../assets/image16.png)
 
 - iOS simulator
 - Instruments
@@ -158,7 +158,7 @@ Appcelerator SDK Fundamentals
 
 # Enterprise Tools - LiveView
 
-![left](assets/image14.png)
+![left](../assets/image14.png)
 
 - LiveView displays updates of your application as you develop it
 - Designed to help with UI design
@@ -169,7 +169,7 @@ Appcelerator SDK Fundamentals
 
 # Enterprise Tools - Code Analyzer
 
-![Code Analyzer](assets/image17.png)
+![Code Analyzer](../assets/image17.png)
 
 - Code Analyzer will analyze your code to identify errors and areas for improvement
 - Uses the Titanium Code Processor
@@ -181,7 +181,7 @@ Appcelerator SDK Fundamentals
 
 # Enterprise Tools - Code Profiler
 
-![Code Profiler](assets/image18.png)
+![Code Profiler](../assets/image18.png)
 
 - Code Profiler collects detailed performance data
 - Use by launching Profiler session, then “Capture performance profile”
@@ -191,7 +191,7 @@ Appcelerator SDK Fundamentals
 
 # Enterprise Tools – Mobile Apps Distribution
 
-![Code Profiler](assets/image19.png)
+![Code Profiler](../assets/image19.png)
 
 - Appcelerator Studio allows you to package Android and iOS applications and upload them to a Mobile Application Management platform
 - Needs a plugin to work with your Distribution Platform (MobileIron, etc)
@@ -211,27 +211,27 @@ Appcelerator SDK Fundamentals
 
 # Creating a Project
 
-![New project](assets/image22.png)
-![New project](assets/image23.png)
+![New project](../assets/image22.png)
+![New project](../assets/image23.png)
 
 --- 
 
 # App Registration
 
-![New project](assets/image24.png)
-![New project](assets/image25.png)
+![New project](../assets/image24.png)
+![New project](../assets/image25.png)
 
 - Appcelerator Services require Titanium SDK 3.1.1 and later
 - Creating a new project and enabling Appcelerator Services
 - Importing a Titanium project and Enabling Appcelerator Services
 
->![image001.png](/assets/images/info/tips.gif) **TIP:** If more than one person is working on the same project and you try to enable Appcelerator Services after it has already been enabled once, the enablement process may freeze. To resolve this issue, copy the tiapp.xml from the user who first enabled Appcelerator Services.
+>![image001.png](../assets/tips.gif) **TIP:** If more than one person is working on the same project and you try to enable Appcelerator Services after it has already been enabled once, the enablement process may freeze. To resolve this issue, copy the tiapp.xml from the user who first enabled Appcelerator Services.
 
 --- 
 
 # Tiapp.xml Editor - GUI mode
 
-![New project](assets/image26.png)
+![New project](../assets/image26.png)
 
 - Set App ID, version, and more
 - Select Titanium SDK and platform support
@@ -242,7 +242,7 @@ Appcelerator SDK Fundamentals
 
 # Tiapp.xml Editor - XML mode
 
-![New project](assets/image27.png)
+![New project](../assets/image27.png)
 
 - Advanced view of your project configurations
 - Configure orientation support
@@ -256,9 +256,9 @@ Appcelerator SDK Fundamentals
 
 You need to import a project in order to work with it:
 
-![New project](assets/image28.png)
-![New project](assets/image29.png)
-![New project](assets/image30.png)
+![New project](../assets/image28.png)
+![New project](../assets/image29.png)
+![New project](../assets/image30.png)
 
 --- 
 
@@ -268,7 +268,7 @@ You need to import a project in order to work with it:
 - Application should appear in your Appcelerator Dashboard
 - Cloud, Test, Performance and Analytics should be enabled
 
-![New project](assets/image31.png)
+![New project](../assets/image31.png)
 
 --- 
 
@@ -280,7 +280,7 @@ You need to import a project in order to work with it:
 - Enable Appcelerator services using ```tiapp.xml```, and you’re done!
 - Apps already using Cloud, Analytics, Test or Performances services should contact tech support
 
-![New project](assets/image32.png)
+![New project](../assets/image32.png)
 
 ---section
 
@@ -289,7 +289,7 @@ You need to import a project in order to work with it:
 
 # Building a Project
 
-![New project](assets/image33.png)
+![New project](../assets/image33.png)
 
 - Debug, Run, and Publish menus
 - Options based on targets configured in Tiapp.xml
@@ -305,13 +305,13 @@ You need to import a project in order to work with it:
 - Locate by platform & project
 - Or use the CLI!
 
-![New project](assets/image34.png)
+![New project](../assets/image34.png)
 
 --- 
 
 # The Command Line Interface (CLI)
 
-![New project](assets/image35.png)
+![New project](../assets/image35.png)
 
 - NodeJS-based command line interface
 - Integrate with custom code repositories, CI configurations, more
@@ -322,7 +322,7 @@ You need to import a project in order to work with it:
 
 # CLI – Checking your Environment
 
-![New project](assets/image36.png)
+![New project](../assets/image36.png)
 
 - Make sure you have everything up-to-date
 - Checks different settings in your system
@@ -345,7 +345,7 @@ You need to import a project in order to work with it:
 
 # CLI – Create a Project
 
-![New project](assets/image37.png)
+![New project](../assets/image37.png)
 
 - By default the CLI will create a Legacy project (non-alloy).
 - Generate an alloy project by invoking:
@@ -356,7 +356,7 @@ You need to import a project in order to work with it:
 
 # CLI – Build your app
 
-![New project](assets/image38.png)
+![New project](../assets/image38.png)
 
 - CLI will help you if you forget parameters
 - Select from a menu of options

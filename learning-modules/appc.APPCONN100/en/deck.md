@@ -1,14 +1,16 @@
 theme:appcelerator-training
+tableclass:striped
+progress:true
 
 # App Connections
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals
 
 ---cover
 
 # App Connections
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 ---
 
@@ -53,7 +55,7 @@ Appcelerator Certified Developer (ACD) Training
 
 # Deep Linking
 
-![img](/assets/images/slides/28/image6.png)
+![img](../assets/image6.png)
 
 ---
 
@@ -328,7 +330,7 @@ Just like with web applications, you should:
 
 # Demo
 
-![img](/assets/images/slides/28/image9.png)
+![img](../assets/image9.png)
 
 >![image001.png](/assets/images/info/info.png) **NOTE:** Some links work only on device
 
@@ -345,8 +347,8 @@ Just like with web applications, you should:
 - iCloud API
 - Camera Roll: Camouflage!!! (NSData -> BMP)
 
-![img](/assets/images/slides/28/image10.png)
-![img](/assets/images/slides/28/image11.png)
+![img](../assets/image10.png)
+![img](../assets/image11.png)
 
 >![image001.png](/assets/images/info/info.png) **NOTE:** Sharing data between apps via UIPasteBoard only works for apps in the same application group in iOS7.  Apps that have the same Bundle Seed ID
 
