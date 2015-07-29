@@ -9,7 +9,7 @@ shadows:true
 
 # Welcome
 
-Welcome to Appcelerator Certified Developer
+Welcome to Appcelerator SDK Fundamentals
 
 Take the [assessment](http://)
 
@@ -23,7 +23,7 @@ Pre-requisites:
 
 # Welcome
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals
 
 ---section
 

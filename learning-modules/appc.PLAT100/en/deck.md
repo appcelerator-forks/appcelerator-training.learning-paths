@@ -2,13 +2,13 @@ theme:appcelerator-training
 
 # Platform Overview
 
-Appcelerator Certified Developer (ACD) Training
+Appcelerator SDK Fundamentals Training
 
 ---cover
 
 # Platform Overview
 
-## Appcelerator Certified Developer (ACD) Training
+## Appcelerator SDK Fundamentals Training
 
 ---section
 

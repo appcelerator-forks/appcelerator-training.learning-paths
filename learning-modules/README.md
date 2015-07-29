@@ -1,1 +1,3 @@
-# Appcelerator Learning Modules
+# Appcelerator SDK Fundamentals
+
+## Certified Training Course
