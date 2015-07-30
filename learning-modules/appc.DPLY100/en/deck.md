@@ -45,23 +45,14 @@ Appcelerator SDK Fundamentals
 
 # 1a. Enable Connection on the Device
 
-To deploy to an Android device you must:
+![right](../assets/image7.png)
 
 - Enable Developer Settings and allow for unknown sources
 - Turn on USB Debugging
-
-**Android 2.x**
-
-![img](../assets/image6.png)
-
-**Android 4.x**
-
-![img](../assets/image7.png)
-
->![image001.png](../assets/tips/tips.gif) **TIP:** To enable developer settings on **Android 4.2+:**
-> - Go to the settings menu, and scroll down to "About phone." Tap it.
-> - Scroll down to the bottom again, where you see "Build number." (Your build number may vary.)
-> - Tap it seven (7) times. After the third tap, you'll see a playful dialog that says you're four taps away from being a developer. Keep on tapping, and *poof*, you've got the developer settings back.
+- Android 4.2+: Enable developer settings:
+	- About Phone/Tablet
+	- Tap on build number seven times.
+	- Return to Settings screen
 
 [![Enable Dev Settings 4.2](http://img.youtube.com/vi/mp07dPusJNA/0.jpg)](http://www.youtube.com/watch?v=mp07dPusJNA)
 
@@ -69,7 +60,7 @@ To deploy to an Android device you must:
 
 # 2. Local Android deployment
 
-![img](../assets/image8.png)
+![left](../assets/image8.png)
 
 - Connect device to USB port
 - From Run menu, choose Android Device
@@ -78,9 +69,9 @@ To deploy to an Android device you must:
 
 # 2a. ADB Sometimes Hangs
 
->![image001.png](../assets/tips/tips.gif) **TIP:** You may need to invoke ```adb kill-server``` to force ```adb``` to restart.
+You may need to invoke `adb kill-server` to force `adb` to restart.
 
-![img](../assets/image9.png)
+![css width:95%;](../assets/image9.png)
 
 --- 
 
@@ -94,11 +85,11 @@ Simple: Get the APK to the user's device
 
 ---section 
 
-# iOS DEPLOYMENT FOR TESTING
+# iOS Deployment For Testing
 
 --- 
 
-# iOS deployment steps:
+# iOS Deployment Steps:
 
 1. Register for Apple's Developer program
 2. Create a developer certificate
@@ -120,13 +111,13 @@ Simple: Get the APK to the user's device
 
 # 2. Developer's certificate
 
-![img](../assets/image10.png)
+![](../assets/image10.png)
 
 --- 
 
 # 3. Register devices
 
-![img](../assets/image11.png)
+![](../assets/image11.png)
 
 --- 
 
@@ -140,7 +131,7 @@ Simple: Get the APK to the user's device
 
 # 5. Provisioning profile
 
-![img](../assets/image12.png)
+![](../assets/image12.png)
 
 --- 
 
@@ -148,7 +139,7 @@ Simple: Get the APK to the user's device
 
 Option 1: Drag & Drop to Xcode
 
-![img](../assets/image13.png)
+![css width:80%;margin:auto;](../assets/image13.png)
 
 --- 
 
@@ -156,7 +147,7 @@ Option 1: Drag & Drop to Xcode
 
 Option 2: Install w/ Titanium Studio
 
-![img](../assets/image14.png)
+![css width:90%;margin:auto;](../assets/image14.png)
 
 --- 
 
@@ -170,18 +161,18 @@ Option 2: Install w/ Titanium Studio
 
 # 7. Distributing to remote testers
 
-Email mobileprovision file and IPA
+Email `.mobileprovision` file and IPA
 
 Over-the-air distribution systems:
 
-- TestFlightApp
+- TestFlight Beta Testing
 - Diawi
 - AppSendr
 - HockeyKit
 
---- 
+---section
 
-# GETTING STARTED WITH CLOUD TEST
+# Getting Started With Cloud Test
 
 --- 
 
@@ -199,16 +190,16 @@ Over-the-air distribution systems:
 
 - TouchTest Agent
 - iOS Device & Simulators
-  - [http://appctest-2.appcelerator.com/concerto/touchtest](http://appctest-2.appcelerator.com/concerto/touchtest)
+	- [http://appctest-2.appcelerator.com/concerto/touchtest](http://appctest-2.appcelerator.com/concerto/touchtest)
 - Android device (2.3.3+) & Emulators (2.3.5+)
-  - [http://appctest-2.appcelerator.com/concerto/touchtest](http://appctest-2.appcelerator.com/concerto/touchtest)
-  - Login and download APK
+	- [http://appctest-2.appcelerator.com/concerto/touchtest](http://appctest-2.appcelerator.com/concerto/touchtest)
+	- Login and download APK
 - Devices need network access to Appcelerator Platform servers
 - Administrator needs to approve device/simulator
 
 ---section 
 
-# TESTING - STARTING
+# Testing - Starting
 
 --- 
 
@@ -216,12 +207,12 @@ Over-the-air distribution systems:
 
 Devices or Simulator registration
 
-![img](../assets/image15.png)
-![img](../assets/image16.png)
-![img](../assets/image17.png)
-![img](../assets/image18.png)
-![img](../assets/image19.png)
-![img](../assets/image20.png)
+![css float:left;width:200px;margin-left:10px;](../assets/image15.png)
+![css float:left;width:200px;margin-left:10px;](../assets/image16.png)
+![css float:left;width:200px;margin-left:10px;](../assets/image17.png)
+![css float:left;width:200px;margin-left:10px;](../assets/image18.png)
+![css float:left;width:200px;margin-left:10px;](../assets/image19.png)
+![css clear:left;display:block;width:600px;margin:auto;](../assets/image20.png)
 
 --- 
 
@@ -235,38 +226,38 @@ Devices or Simulator registration
 
 # Automated Testing - Starting
 
-- Enable Services from tiapp.xml
-- In Studio: Select TEST > device or simulator
+![css position:absolute;left:65%;top:175px;width:300px;](../assets/image23.png)
+![css position:absolute;left:45%;top:350px;width:500px;](../assets/image24.png)
 
-![img](../assets/image23.png)
-![img](../assets/image24.png)
+- Enable Services from `tiapp.xml`
+- In Studio: Select TEST > device or simulator
 
 ---section
 
-# RECORDING A TEST CLIP
+# Recording A Test Clip
 
 --- 
 
 # Automated Testing – Recording a Test Clip
+
+![left](../assets/image25.png)
 
 - Clip: Basic building block of a test.
 - App actions: taps, gestures, test inputs
 - Start a test clip from the Dashboard
 
-![img](../assets/image25.png)
-
 --- 
 
 # Automated Testing – Recording a Test Clip
 
-Make sure TouchTest Agent is connected to Test Service
-Go to the Appcelerator Dashboard – Test tab
-On the Central tab, select Clips then click on NEW
-A new Clip Editor will open
-Click Record and select Record Mobile app
+![left](../assets/image26.png)
+![right](../assets/image27.png)
 
-![img](../assets/image26.png)
-![img](../assets/image27.png)
+- Make sure TouchTest Agent is connected to Test Service
+- Go to the Appcelerator Dashboard – Test tab
+- On the Central tab, select Clips then click on NEW
+	- A new Clip Editor will open
+- Click Record and select Record Mobile app
 
 --- 
 
@@ -280,13 +271,12 @@ Click Record and select Record Mobile app
 
 # Automated Testing – Test Composition
 
+![left](../assets/image29.png)
+
 - It’s the actual test that will be executed on the device
 - Consist of one or more clips arranged in tracks
 - Organize tracks to create full regression tests
 - Select devices per-track or per-clip
-
-![img](../assets/image28.png)
-![img](../assets/image29.png)
 
 --- 
 
