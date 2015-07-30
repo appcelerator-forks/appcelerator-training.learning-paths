@@ -24,23 +24,26 @@ Appcelerator SDK Fundamentals
 
 ---
 
-## What is Arrow?
+# What is Arrow?
 
 An opinionated framework to build and deploy applications to the cloud.
 
-- **Arrow Builder** lets you build and deploy API endpoints and node.js apps from localhost to cloud endpoints- **Arrow Cloud** hosts applications, built with Arrow Builder
+- Arrow Builder lets you build and deploy API endpoints and node.js apps from localhost to cloud endpoints- Arrow Cloud hosts applications, built with Arrow Builder
 
 ---
 
-## Appcelerator Platform Architecture Diagram
+# Arrow Architecture Diagram
+
+![css height:85%;margin:auto;left:25%;top:85px;position:absolute;](../assets/image6.png)
+![css position:absolute;left:2%;top:95px;](../assets/image5.jpeg)
 
 ---
 
 # Installation
 
-- **Step 1**: Install Appcelerator CLI
-	Visit: https://web.appcelerator.com/product/cli- **Step 2**: Create an Arrow project
-	`appc new`- **Step 3**: run your Arrow project  	`appc run`
+- Step 1: Install Appcelerator CLI
+	Visit: https://web.appcelerator.com/product/cli- Step 2: Create an Arrow project
+	`appc new`- Step 3: run your Arrow project  	`appc run`
 
 ---section
 
@@ -56,9 +59,9 @@ An opinionated framework to build and deploy applications to the cloud.
 
 # Arrow Builder Components
 
-- **Connectors** are adaptors to external data sources- **Models** are structured data generated API endpoints.- **APIs** are custom endpoints- **Blocks** are filters that allow you to pre- or post- process data- **Web framework**for creating HTML applications.
+- Connectors are adaptors to external data sources- Models are structured data generated API endpoints.- APIs** are custom endpoints- Blocks** are filters that allow you to pre- or post- process data- Web framework for creating HTML applications.
 
----
+---section
 
 # Arrow Cloud
 
@@ -72,16 +75,9 @@ An opinionated framework to build and deploy applications to the cloud.
 
 # Arrrow Cloud Components
 
-- **ArrowDB** (formerly known as Appcelerator Cloud Services) pre-built REST objects and services.- **Arrow Push** notification service for iOS and Android.
+- ArrowDB (formerly known as Appcelerator Cloud Services) pre-built REST objects and services.- Arrow Push notification service for iOS and Android.
 
-![css position:absolute;top:80%;](../assets/image7.png)
-
----
-
-# Platform Architecture Diagram
-
-![css position:absolute;top:80%;width:600px;](../assets/image8.jpeg)
-![css position:absolute;left:5%;](../assets/image9.png)
+![css position:absolute;top:50%;left:55%;](../assets/image7.png)
 
 ---
 
@@ -140,22 +136,22 @@ An opinionated framework to build and deploy applications to the cloud.
 
 # Registration results
 
-![css width:450;position:absolute;left:5%;](../assets/image15.png)
-![css width:450;position:absolute;left:20%;](../assets/image16.png)
+![css width:400px;position:absolute;left:5%;top:50%;](../assets/image15.png)
+![css position:absolute;left:20%;top:65%;](../assets/image16.png)
 
 - Creates a new ArrowDB application that you can manage using Appcelerator Dashboard.- Adds the ti.cloud module to your tiapp.xml- Adds application keys to tiapp.xml used to authenticate your application when making ArrowDB method calls.
 
 ---
 
-# Enable Platform Services for Native iOS/Android Apps
+# Native iOS/Android Apps
 
 Dashboard -> Create new Native Application
 
-![css width:300px;](../assets/image17.png)
+![css width:500px;](../assets/image17.png)
 
 Download iOS / Android SDK
 
-![css width:300px;](../assets/image18.png)
+![css width:500px;](../assets/image18.png)
 
 ---code
 
@@ -271,7 +267,7 @@ exports.definition = {
 
 # Arrow Cloud Kitchen Sink
 
-![img](../assets//image21.png)
+![left](../assets//image21.png)
 
 - Example application provided with SDK
 - Installed to SDK directory
