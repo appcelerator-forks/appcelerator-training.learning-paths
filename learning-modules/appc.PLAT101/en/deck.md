@@ -16,12 +16,11 @@ Appcelerator SDK Fundamentals
 
 # In this lesson, you will:
 
-- Identify the role of the Alloy MVC components
-- Implement a UI control using Views and Styles
-- Enable interactivity with a Controller
-- Identify options for handling platform differences in Alloy
+- Learn how to manage organizations
+- Learn how to import native applications on to the Platform
+- Identify how to filter and export data
 
---- 
+---section 
 
 # Working with the dashboard
 
@@ -58,19 +57,19 @@ Appcelerator SDK Fundamentals
 
 All Platform services now can be used with legacy applications developed with a native SDK (iOS/Android)
 
-![img](../assets/image20.png)
+![](../assets/image20.png)
 
 --- 
 
 # Adding Native Apps
 
-Provide a name, platform, a category
-Appcelerator services will be enabled
-Download different SDKs for each service you want to integrate
+- Provide a name, platform, a category
+- Appcelerator services will be enabled
+- Download different SDKs for each service you want to integrate
 
-![img](../assets/image21.png)
-![img](../assets/image22.png)
-![img](../assets/image23.png)
+![css position:absolute;left:5%;300px;top:40%;](../assets/image21.png)
+![css position:absolute;width:300px;left:25%;top:45%;](../assets/image22.png)
+![css position:absolute;left:45%;300px;top:50%;](../assets/image23.png)
 
 --- 
 
@@ -87,26 +86,33 @@ Download different SDKs for each service you want to integrate
 
 # Data Filters
 
+![right](../assets/image24.png)
+
 - Filter data by App version number, environment, or time period
 - User can select a filter options
 - The data in the dashboard page will be updated based on set filters
 
-![img](../assets/image24.png)
 
 --- 
 
 # Export Data
 
-2 Options to Export chart and table data to CSV format:
+![right](../assets/image25.png)
+
+Two Options to Export chart and table data to CSV format:
 
 1. Export Chart Data to export the data in the chart
 2. Export Table Data to export the data in the table
 
-![img](../assets/image25.png)
-
 --- 
 
 # Summary
+
+In this lesson, you...
+
+- Identified how to manage organizations 
+- How to manage/add native applications 
+- Identified how to export data
 
 ---section
 
