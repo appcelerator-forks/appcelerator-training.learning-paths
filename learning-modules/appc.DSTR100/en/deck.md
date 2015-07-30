@@ -22,16 +22,16 @@ Appcelerator SDK Fundamentals
 
 ---section
 
-# ANDROID PUBLISHING
+# Android Publishing
 
 --- 
 
 # Targeting Android Versions
 
-minSdkVersion - minimum version supported
-targetSdkVersion - target version also determines which version of the Android build tools are used
-Controls Play Store filtering
-tool-api-level no longer supported or needed
+- `minSdkVersion` - minimum version supported
+- `targetSdkVersion` - target version also determines which version of the Android build tools are used
+- Controls Play Store filtering
+- `tool-api-level` no longer supported or needed
 
 ```xml
 <android xmlns:android="http://schemas.android.com/apk/res/android">
@@ -46,7 +46,7 @@ tool-api-level no longer supported or needed
 
 # Google Play
 
-(formerly the Android Market)
+> Formerly the Android Market
 
 - Set up your account and meet the Play (Market) requirements
 - Build and sign your code
@@ -60,37 +60,37 @@ tool-api-level no longer supported or needed
 - Google account
 - Android Developer account
 - One-time fee
-- SDK tools: keytool, jarsigner, zipalign
+- SDK tools: `keytool`, `jarsigner`, `zipalign`
 
 --- 
 
 # Generate Key Pair and Certificate
 
-![img](../assets/image6.png)
+![](../assets/image6.png)
 
 --- 
 
 # Verify Keystore
 
-![img](../assets/image7.png)
+![](../assets/image7.png)
 
 --- 
 
 # Sign Your Application
 
-![img](../assets/image8.png)
+![](../assets/image8.png)
 
 --- 
 
 # Verify Signed App
 
-![img](../assets/image9.png)
+![](../assets/image9.png)
 
 --- 
 
 # Uploading and publishing
 
-![img](../assets/image10.png)
+![left](../assets/image10.png)
 
 - Two screenshots
 - 512x512 px icon
@@ -103,7 +103,7 @@ tool-api-level no longer supported or needed
 
 ---section 
 
-# iOS PUBLISHING
+# iOS Publishing
 
 --- 
 
@@ -125,33 +125,33 @@ tool-api-level no longer supported or needed
 - App icons for all supported devices and resolutions
 - Extra icons (for Settings app, Spotlight, etc.)
 - Launch images (splash screens) for all supported devices, resolutions, and orientations
-- iTunesArtwork (512px square) and iTunesArtwork@2x (1024px square) icons for iTunes
+- `iTunesArtwork` (512px square) and `iTunesArtwork@2x` (1024px square) icons for iTunes
 
-See [http://goo.gl/eXZ0t](http://goo.gl/eXZ0t) for complete list
+View the complete list: [http://goo.gl/eXZ0t](http://goo.gl/eXZ0t)
 
 --- 
 
 # Certificate
 
-![img](../assets/image11.png)
+![](../assets/image11.png)
 
 --- 
 
 # Distribution Provisioning Profile
 
-![img](../assets/image12.png)
+![](../assets/image12.png)
 
 --- 
 
 # Build for Distribution
 
-![img](../assets/image13.png)
+![](../assets/image13.png)
 
 --- 
 
 # iTunes Connect
 
-![img](../assets/image14.png)
+![left](../assets/image14.png)
 
 - Portal for app sales management
 - Sales statistics
@@ -162,7 +162,7 @@ See [http://goo.gl/eXZ0t](http://goo.gl/eXZ0t) for complete list
 
 # Creating an app in iTunes Connect
 
-![img](../assets/image15.png)
+![left](../assets/image15.png)
 
 - 1 screen shot per device per language
 - 1024x1024 px icon
@@ -176,7 +176,7 @@ See [http://goo.gl/eXZ0t](http://goo.gl/eXZ0t) for complete list
 
 # Validating and Uploading
 
-![img](../assets/image16.png)
+![](../assets/image16.png)
 
 --- 
 
