@@ -1,6 +1,7 @@
 theme:appcelerator-training
 tableclass:striped
 progress:true
+shadows:true
 
 # WebViews
 
@@ -39,7 +40,7 @@ Appcelerator SDK Fundamentals
 - In a TableView
 - When performance is critical
 
---- 
+---cover
 
 # Remote Web Content
 
@@ -77,13 +78,16 @@ var webview = Ti.UI.createWebView({
 win.add(webview); 
 ```
 
->![image001.png](../assets/tips/info.png) **NOTE:** 
-> - HTML, JS, etc. in the assets folder with Alloy
-> - In Resources for non-Alloy
-> - OK to put into subdirectories of those locations
-> - Leading slash required for Android
+---
 
---- 
+>![image001.png](../assets/tips/info.png) **NOTE:** 
+
+- HTML, JS, etc. in the assets folder with Alloy
+- In Resources for non-Alloy
+- OK to put into subdirectories of those locations
+- Leading slash required for Android
+
+---code 
 
 # Inline HTML
 
@@ -126,10 +130,10 @@ win.add(webview);
 
 --- 
 
-# ACS Kitchen Sink
+# WebView Keyboards
 
-![img](../assets/image5.png)
-![img](../assets/image6.png)
+![css width:300px;position:absolute;left:5%;top:100px;](../assets/image5.png)
+![css width:300px;position:absolute;left:25%;top:130px;](../assets/image6.png)
 
 ```xml
 <input type='text' placeholder="Full name"/> 
@@ -139,11 +143,11 @@ win.add(webview);
 <input type='tel'/> 
 ```
 
----section 
+---section
 
-# WEBVIEW CONSIDERATIONS
+# WebView Considerations
 
---- 
+---
 
 # Communicating With The Wrapper
 
@@ -153,7 +157,7 @@ win.add(webview);
   - App-level Events (Ti.App.fireEvent/addEventListener)
 - Native APIs must be accessed indirectly via application level events
 
---- 
+---
 
 # WebView Gotchas
 
@@ -161,29 +165,28 @@ win.add(webview);
 - Should not be embedded in other scrollable views
 - Common misuse - inside TableViewRows (bad performance)
 - It is possible to implement your whole UI in HTML/CSS, but native UI is what your users expect
---- 
+---
 
 # Android Compilation
 
 By default, Appcelerator processes all JavaScript in the resources directory on Android to optimize for native apps.
 
 - Must override for "hybrid apps" to preserve HTML paths
-- Entry in ```tiapp.xml```
-
-```<property name="ti.android.compilejs" type="bool">false</property>```
+- Entry in `tiapp.xml`
+	- `<property name="ti.android.compilejs" type="bool">false</property>`
 
 ---section
 
-# NOVEL USES OF THE WEBVIEW
+# Novel Uses
 
 --- 
 
 # Integrating Web Tools
 
-![img](../assets/image8.png)
-![img](../assets/image9.png)
-![img](../assets/image10.png)
-![img](../assets/image11.png)
+![css width:230px;position:absolute;left:5%;top:300px;](../assets/image8.png)
+![css width:230px;position:absolute;left:45%;top:300px;](../assets/image10.png)
+![css width:230px;position:absolute;left:25%;top:300px;](../assets/image9.png)
+![css width:400px;position:absolute;left:60%;top:250px;](../assets/image11.png)
 
 - CSS 3D, Canvas, PDF.js, etc.
 - Canvas not supported on all Android < ~4.0.3
@@ -193,11 +196,11 @@ By default, Appcelerator processes all JavaScript in the resources directory on 
 
 # SVG Transformations
 
-![img](../assets/image12.png)
-![img](../assets/image13.png)
-
 - Transform images
 - 2D/3D animations
+
+![css width:400px;position:absolute;left:13%;top:230px;](../assets/image12.jpeg)
+![css width:400px;position:absolute;left:53%;top:230px;](../assets/image13.png)
 
 --- 
 
@@ -205,13 +208,13 @@ By default, Appcelerator processes all JavaScript in the resources directory on 
 
 WebView on iOS can display embedded:
 
-|Types||
+| Types | |
 |-|-|
-|PDF|PowerPoint|
-|Keynote|Word|
-|Numbers|RTF|
-|Pages|RTF Directory|
-|Excel||
+| PDF | PowerPoint |
+| Keynote | Word |
+| Numbers | RTF |
+| Pages | RTF Directory |
+| Excel | | | 
 
 --- 
 
